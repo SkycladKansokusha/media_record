@@ -3,9 +3,8 @@
 # (If you prefer "Deploy from a branch" → main / root, you can delete this file.)
 name: Deploy to GitHub Pages
 
+# Manual only: the site is published with "Deploy from a branch" (main / root).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
