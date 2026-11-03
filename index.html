@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- Fallback text for before JS runs; the live values come from js/strings.js -->
+    <title>MEDIA LOG — Personal Archive</title>
+    <meta name="description" content="A personal log of films, series, books and music." />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#05070d" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 2h22l6 6v22H8l-6-6z' fill='%2305070d' stroke='%234fc3ff' stroke-width='2'/%3E%3Cpath d='M9 22V10l7 7 7-7v12' fill='none' stroke='%23e6edf7' stroke-width='2.4'/%3E%3C/svg%3E"
+    />
+
+    <!-- Fonts: Inter (UI), Rajdhani (display), JetBrains Mono (labels). CJK falls back to system fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Rajdhani:wght@500;600;700&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" id="skip-link" href="#grid"></a>
+
+    <!-- Decorative background: grid, glow, stripes, crosshairs. Pure CSS, no images. -->
+    <div class="fx" aria-hidden="true">
+      <div class="fx__grid"></div>
+      <div class="fx__dots"></div>
+      <div class="fx__glow"></div>
+      <div class="fx__stripes"></div>
+      <span class="fx__cross fx__cross--a"></span>
+      <span class="fx__cross fx__cross--b"></span>
+      <span class="fx__cross fx__cross--c"></span>
+      <div class="fx__ruler"></div>
+    </div>
+
+    <header class="topbar" data-reveal>
+      <a class="brand" id="brand" href="#film">
+        <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M2 2h22l6 6v22H8l-6-6z" />
+          <path class="brand__mark-m" d="M9 22V10l7 7 7-7v12" />
+        </svg>
+        <span class="brand__text">
+          <span class="brand__name" id="brand-name"></span>
+          <span class="brand__tag" id="brand-tag"></span>
+        </span>
+      </a>
+      <div class="topbar__rule" aria-hidden="true"><span></span></div>
+      <nav class="mainnav" id="mainnav">
+        <ul id="mainnav-list"></ul>
+      </nav>
+    </header>
+
+    <main class="page" id="main">
+      <section class="hero">
+        <div class="hero__bignum" id="hero-num" aria-hidden="true"></div>
+        <p class="hero__code label" id="hero-code" data-reveal></p>
+        <h1 class="hero__title" id="hero-title" data-reveal></h1>
+
+        <nav class="subnav" id="subnav" data-reveal>
+          <ul class="subnav__list" id="subnav-list"></ul>
+          <span class="subnav__bar" id="subnav-bar" aria-hidden="true"></span>
+        </nav>
+
+        <dl class="stats" id="stats" data-reveal>
+          <div class="stat">
+            <dt class="label" id="stat-total-label"></dt>
+            <dd class="stat__value"><span id="stat-total">0</span></dd>
+          </div>
+          <div class="stat">
+            <dt class="label" id="stat-avg-label"></dt>
+            <dd class="stat__value"><span id="stat-avg">0.0</span><span class="stat__unit" id="stat-avg-unit"></span></dd>
+          </div>
+          <div class="stat stat--latest">
+            <dt class="label" id="stat-latest-label"></dt>
+            <dd class="stat__latest">
+              <span class="stat__latest-title" id="stat-latest-title"></span>
+              <span class="stat__latest-date" id="stat-latest-date"></span>
+            </dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="controls" id="controls" data-reveal>
+        <div class="toolbar">
+          <div class="search">
+            <label class="visually-hidden" for="search" id="search-label"></label>
+            <input id="search" class="search__input" type="search" autocomplete="off" spellcheck="false" />
+            <button class="search__clear" id="search-clear" type="button" hidden></button>
+            <svg class="search__icon" viewBox="0 0 20 20" aria-hidden="true">
+              <circle cx="8.5" cy="8.5" r="5.5" />
+              <path d="M12.6 12.6 17 17" />
+            </svg>
+          </div>
+
+          <div class="sort">
+            <span class="label" id="sort-label"></span>
+            <div class="sort__buttons" id="sort-buttons" role="group" aria-labelledby="sort-label"></div>
+            <button class="sort__dir" id="sort-dir" type="button"></button>
+          </div>
+
+          <p class="count" id="result-count" aria-live="polite"></p>
+        </div>
+
+        <div class="tagbar" id="tagbar">
+          <span class="label" id="tags-label"></span>
+          <ul class="tagbar__list" id="tag-list" role="list"></ul>
+          <button class="tagbar__clear" id="tags-clear" type="button" hidden></button>
+        </div>
+      </section>
+
+      <section class="grid" id="grid" data-aspect="portrait"></section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__tagline" id="footer-tagline"></p>
+      <p class="footer__scroll" aria-hidden="true"><span id="footer-scroll"></span><span class="footer__line"></span></p>
+    </footer>
+
+    <noscript><p class="noscript">This site needs JavaScript enabled.</p></noscript>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

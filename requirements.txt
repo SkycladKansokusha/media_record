@@ -1,0 +1,4 @@
+# Needed by scripts/add.py
+requests>=2.28
+# Optional: converts / resizes covers to JPEG. Without it covers are saved unchanged.
+pillow>=10.0

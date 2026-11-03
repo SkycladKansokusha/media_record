@@ -1,0 +1,182 @@
+/* ==================================================================
+ * animations.css — CSS-driven motion. JS-driven springs are in js/motion.js.
+ * Every curve here is non-linear: spring (linear()), expo-out or back-out.
+ * ================================================================== */
+
+/* --- Page load: elements with [data-reveal] wipe in, one after another.
+ *     main.js sets --reveal-delay and adds .is-loaded to <html>. */
+[data-reveal] {
+  opacity: 0;
+}
+.is-loaded [data-reveal] {
+  animation: wipe-in var(--dur-slow) var(--ease-out-expo) var(--reveal-delay, 0ms) both;
+}
+@keyframes wipe-in {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+    transform: translateX(-12px);
+  }
+  30% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: none;
+  }
+}
+/* The sticky top bar must not keep a clip-path (would clip its blur). */
+.is-loaded .topbar[data-reveal] {
+  animation-name: slide-down;
+}
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Giant background number drifts in. */
+.hero__bignum {
+  animation: num-in 900ms var(--ease-out-expo) both;
+}
+@keyframes num-in {
+  from {
+    opacity: 0;
+    transform: translateX(6%);
+  }
+}
+
+/* Sub-tabs pop in with a spring when a section opens. */
+.subnav__list li {
+  animation: rise var(--dur-spring) var(--ease-spring) calc(var(--i, 0) * 50ms + 120ms) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* --- Cards leaving on section switch: quick, accelerating exit. */
+.card.is-leaving {
+  transition:
+    opacity var(--dur-fast) var(--ease-in) var(--exit-delay, 0ms),
+    transform var(--dur-fast) var(--ease-in) var(--exit-delay, 0ms);
+  opacity: 0 !important;
+  transform: translate3d(0, -10px, 0) scale(0.97) !important;
+  pointer-events: none;
+}
+
+/* --- Rating diamonds light up one after another. */
+.card:not(.is-lit) .diamond__fill {
+  transform: scale(0);
+}
+.card.is-lit .diamond__fill,
+.detail.is-open .diamond__fill {
+  animation: diamond-pop 520ms var(--ease-spring) both;
+  animation-delay: calc(var(--i) * 70ms + 140ms);
+}
+.detail.is-open .diamond__fill {
+  animation-delay: calc(var(--i) * 80ms + 320ms);
+}
+@keyframes diamond-pop {
+  from {
+    transform: scale(0) rotate(-90deg);
+  }
+}
+.card.is-lit .diamond--full .diamond__track,
+.card.is-lit .diamond--half .diamond__track {
+  animation: diamond-flash 600ms var(--ease-out-expo) calc(var(--i) * 70ms + 140ms) both;
+}
+@keyframes diamond-flash {
+  from {
+    stroke: var(--c-accent);
+  }
+}
+
+/* --- Detail panel: content rises in stagger after the cover lands. */
+.detail__panel::before {
+  transition: opacity var(--dur) var(--ease-out-expo), transform var(--dur-slow) var(--ease-out-expo);
+  opacity: 0;
+  transform: scale(0.985);
+}
+.detail.is-open .detail__panel::before {
+  opacity: 1;
+  transform: none;
+}
+.detail.is-open .detail__body > *,
+.detail.is-open .detail__close {
+  animation: rise var(--dur-spring) var(--ease-spring-soft) both;
+}
+.detail.is-open .detail__close { animation-delay: 200ms; }
+.detail.is-open .detail__body > :nth-child(1) { animation-delay: 140ms; }
+.detail.is-open .detail__body > :nth-child(2) { animation-delay: 180ms; }
+.detail.is-open .detail__body > :nth-child(3) { animation-delay: 220ms; }
+.detail.is-open .detail__body > :nth-child(4) { animation-delay: 260ms; }
+.detail.is-open .detail__body > :nth-child(5) { animation-delay: 300ms; }
+.detail.is-open .detail__body > :nth-child(6) { animation-delay: 340ms; }
+.detail.is-open .detail__body > :nth-child(7) { animation-delay: 380ms; }
+.detail.is-open .detail__wire {
+  animation: wire-draw 800ms var(--ease-out-expo) 260ms both;
+}
+@keyframes wire-draw {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+.detail.is-open .detail__cover-col::before,
+.detail.is-open .detail__cover-col::after {
+  animation: bracket-in var(--dur-spring) var(--ease-spring) 300ms both;
+}
+@keyframes bracket-in {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+}
+/* Closing: everything except the flying cover fades out fast. */
+.detail.is-closing .detail__body,
+.detail.is-closing .detail__close,
+.detail.is-closing .detail__cover-col::before,
+.detail.is-closing .detail__cover-col::after {
+  opacity: 0;
+  transition: opacity 120ms var(--ease-in);
+}
+
+/* ==================================================================
+ * Reduced motion: no tilt, no springs, no slides — just short fades.
+ * ================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+  .is-loaded [data-reveal],
+  .card,
+  .detail[open] {
+    animation: fade-in 200ms ease-out both !important;
+  }
+  .card.is-pending {
+    opacity: 1;
+  }
+  .card__tilt,
+  .card__shadow {
+    transform: none !important;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+}

@@ -1,0 +1,423 @@
+[
+  {
+    "id": "literature-0022",
+    "title": "Malice",
+    "originalTitle": "悪意",
+    "originalLanguage": "ja",
+    "creator": "Keigo Higashino",
+    "creatorOriginal": "東野圭吾",
+    "year": 2014,
+    "date": "2026-11-03",
+    "rating": 5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0022.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL20339731W"
+    }
+  },
+  {
+    "id": "literature-0021",
+    "title": "The devotion of suspect X",
+    "originalTitle": "容疑者Xの献身",
+    "originalLanguage": "ja",
+    "creator": "Keigo Higashino",
+    "creatorOriginal": "東野圭吾",
+    "year": 2011,
+    "date": "2026-11-03",
+    "rating": 5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0021.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL15637392W"
+    }
+  },
+  {
+    "id": "literature-0020",
+    "title": "Journey Under the Midnight Sun",
+    "originalTitle": "白夜行",
+    "originalLanguage": "ja",
+    "creator": "Keigo Higashino",
+    "creatorOriginal": "東野圭吾",
+    "year": 2014,
+    "date": "2026-11-03",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0020.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL17395780W"
+    }
+  },
+  {
+    "id": "literature-0019",
+    "title": "A Murder Is Announced",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1950,
+    "date": "2026-11-03",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0019.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471771W"
+    }
+  },
+  {
+    "id": "literature-0018",
+    "title": "The Body in the Library",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1942,
+    "date": "2026-11-03",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0018.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471610W"
+    }
+  },
+  {
+    "id": "literature-0017",
+    "title": "The Murder at the Vicarage",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1930,
+    "date": "2026-11-03",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0017.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471895W"
+    }
+  },
+  {
+    "id": "literature-0016",
+    "title": "Death on the Nile",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1937,
+    "date": "2026-11-03",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0016.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471724W"
+    }
+  },
+  {
+    "id": "literature-0015",
+    "title": "The Murder of Roger Ackroyd",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1926,
+    "date": "2026-11-03",
+    "rating": 5,
+    "tags": [
+      "Detective"
+    ],
+    "cover": "covers/literature/literature-0015.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471932W"
+    }
+  },
+  {
+    "id": "literature-0014",
+    "title": "Murder on the Orient Express",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1933,
+    "date": "2026-11-03",
+    "rating": 5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0014.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471576W"
+    }
+  },
+  {
+    "id": "literature-0013",
+    "title": "And Then There Were None",
+    "originalLanguage": "en",
+    "creator": "Agatha Christie",
+    "year": 1939,
+    "date": "2026-11-03",
+    "rating": 5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0013.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL471565W"
+    }
+  },
+  {
+    "id": "literature-0012",
+    "title": "The Mimosa Confessions",
+    "originalTitle": "ミモザの告白",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Mimoza no Kokuhaku"
+    ],
+    "creator": "Mei Hachimoku ",
+    "creatorOriginal": "八目迷",
+    "year": 2021,
+    "date": "2026-11-03",
+    "rating": 4,
+    "tags": [
+      "light novel"
+    ],
+    "cover": "covers/literature/literature-0012.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "137428"
+    }
+  },
+  {
+    "id": "literature-0011",
+    "title": "An Autumn in Amber, a Zero-Second Journey",
+    "originalTitle": "琥珀の秋、0秒の旅",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kohaku no Aki, 0 Byou no Tabi"
+    ],
+    "creator": "Mei Hachimoku ",
+    "creatorOriginal": "八目迷",
+    "year": 2022,
+    "date": "2026-11-03",
+    "rating": 3.5,
+    "tags": [
+      "light novel"
+    ],
+    "cover": "covers/literature/literature-0011.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "152715"
+    }
+  },
+  {
+    "id": "literature-0010",
+    "title": "Wait For Me Yesterday in Spring",
+    "originalTitle": "きのうの春で、君を待つ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kinou no Haru de, Kimi wo Matsu"
+    ],
+    "creator": "Mei Hachimoku ",
+    "creatorOriginal": "八目迷",
+    "year": 2020,
+    "date": "2026-11-03",
+    "rating": 3.5,
+    "tags": [
+      "light novel"
+    ],
+    "cover": "covers/literature/literature-0010.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "140287"
+    }
+  },
+  {
+    "id": "literature-0009",
+    "title": "Starting Over",
+    "originalTitle": "スターティング・オーヴァー",
+    "originalLanguage": "ja",
+    "creator": "Sugaru Miaki",
+    "creatorOriginal": "三秋縋",
+    "year": 2013,
+    "date": "2026-11-03",
+    "rating": 4,
+    "tags": [
+      "light novel"
+    ],
+    "cover": "covers/literature/literature-0009.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "99970"
+    }
+  },
+  {
+    "id": "literature-0008",
+    "title": "The Tunnel to Summer, the Exit of Goodbyes",
+    "originalTitle": "夏へのトンネル、さよならの出口",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Natsu e no Tunnel, Sayonara no Deguchi"
+    ],
+    "creator": "Mei Hachimoku ",
+    "creatorOriginal": "八目迷",
+    "year": 2019,
+    "date": "2026-11-03",
+    "rating": 4,
+    "tags": [
+      "light novel"
+    ],
+    "cover": "covers/literature/literature-0008.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "117853"
+    }
+  },
+  {
+    "id": "literature-0007",
+    "title": "First Love",
+    "originalTitle": "Первая любовь",
+    "originalLanguage": "ru",
+    "creator": "Ivan Turgenev",
+    "year": 1984,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Romance",
+      "Russian Literature"
+    ],
+    "cover": "covers/literature/literature-0007.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL28645904W"
+    }
+  },
+  {
+    "id": "literature-0006",
+    "title": "White Nights",
+    "originalTitle": "Белые ночи",
+    "originalLanguage": "ru",
+    "creator": "Fyodor Dostoevsky",
+    "year": 1848,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Russian Literature"
+    ],
+    "cover": "covers/literature/literature-0006.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL166952W"
+    }
+  },
+  {
+    "id": "literature-0005",
+    "title": "The Catcher in the Rye",
+    "originalLanguage": "en",
+    "creator": "J. D. Salinger",
+    "year": 1945,
+    "date": "2026-11-02",
+    "rating": 5,
+    "cover": "covers/literature/literature-0005.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL3335245W"
+    }
+  },
+  {
+    "id": "literature-0004",
+    "title": "Frog",
+    "originalTitle": "蛙",
+    "originalLanguage": "zh",
+    "creator": "Mo Yan",
+    "creatorOriginal": "莫言",
+    "year": 2014,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Tragedy",
+      "Chinese Literature"
+    ],
+    "cover": "covers/literature/literature-0004.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL22313811W"
+    }
+  },
+  {
+    "id": "literature-0003",
+    "title": "To live",
+    "originalTitle": "活着",
+    "originalLanguage": "zh",
+    "creator": "Yu Hua",
+    "creatorOriginal": "余华",
+    "year": 2003,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Tragedy",
+      "Chinese Literature"
+    ],
+    "cover": "covers/literature/literature-0003.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL15861449W"
+    }
+  },
+  {
+    "id": "literature-0002",
+    "title": "No Longer Human",
+    "originalTitle": "人間失格",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Ningen Shikkaku"
+    ],
+    "creator": "Osamu Dazai",
+    "creatorOriginal": "太宰 治",
+    "year": 1948,
+    "date": "2026-11-01",
+    "rating": 4,
+    "review": "恥の多い生涯を送って来ました。",
+    "tags": [
+      "Japanese Literature"
+    ],
+    "cover": "covers/literature/literature-0002.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL3923952W"
+    }
+  },
+  {
+    "id": "literature-0001",
+    "title": "Norwegian Wood",
+    "originalTitle": "ノルウェイの森",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "상실의 시대"
+    ],
+    "creator": "Haruki Murakami",
+    "creatorOriginal": "村上春樹",
+    "year": 1987,
+    "date": "2026-11-01",
+    "rating": 5,
+    "review": "これは喪失の時代である。",
+    "tags": [
+      "Romance",
+      "Japanese Literature"
+    ],
+    "cover": "covers/literature/literature-0001.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL2625457W"
+    }
+  }
+]

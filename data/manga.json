@@ -1,0 +1,176 @@
+[
+  {
+    "id": "manga-0012",
+    "title": "The Climber",
+    "originalTitle": "孤高の人",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kokou no Hito"
+    ],
+    "creator": "Shinichi Sakamoto",
+    "creatorOriginal": "坂本眞一",
+    "year": 2007,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0012.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "37375"
+    }
+  },
+  {
+    "id": "manga-0011",
+    "title": "Attack on Titan",
+    "originalTitle": "進撃の巨人",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Shingeki no Kyojin"
+    ],
+    "creator": "Hajime Isayama",
+    "creatorOriginal": "諫山創",
+    "year": 2009,
+    "date": "2026-11-02",
+    "rating": 5,
+    "review": "Masterpiece.",
+    "tags": [
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0011.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "53390"
+    }
+  },
+  {
+    "id": "manga-0010",
+    "title": "Summertime Rendering",
+    "originalTitle": "サマータイムレンダ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Summer Time Render"
+    ],
+    "creator": "Yasuki Tanaka",
+    "creatorOriginal": "田中靖規",
+    "year": 2017,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0010.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "102989"
+    }
+  },
+  {
+    "id": "manga-0009",
+    "title": "JoJo's Bizarre Adventure: Part 7–Steel Ball Run",
+    "originalTitle": "ジョジョの奇妙な冒険 スティール・ボール・ラン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: Steel Ball Run"
+    ],
+    "creator": "Hirohiko Araki",
+    "creatorOriginal": "荒木飛呂彦",
+    "year": 2004,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0009.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "31706"
+    }
+  },
+  {
+    "id": "manga-0008",
+    "title": "Fire Punch",
+    "originalTitle": "ファイアパンチ",
+    "originalLanguage": "ja",
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2016,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0008.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "87170"
+    }
+  },
+  {
+    "id": "manga-0007",
+    "title": "Goodnight Punpun",
+    "originalTitle": "おやすみプンプン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Oyasumi Punpun"
+    ],
+    "creator": "Inio Asano",
+    "creatorOriginal": "浅野いにお",
+    "year": 2007,
+    "date": "2026-11-01",
+    "rating": 5,
+    "review": "おやすみ",
+    "tags": [
+      "Psychological"
+    ],
+    "cover": "covers/manga/manga-0007.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "34632"
+    }
+  },
+  {
+    "id": "manga-0006",
+    "title": "Bloom Into You",
+    "originalTitle": "やがて君になる",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yagate Kimi ni Naru"
+    ],
+    "creator": "Nio Nakatani",
+    "creatorOriginal": "仲谷鳰",
+    "year": 2015,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Romance"
+    ],
+    "cover": "covers/manga/manga-0006.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "86218"
+    }
+  },
+  {
+    "id": "manga-0005",
+    "title": "Berserk",
+    "originalTitle": "ベルセルク",
+    "originalLanguage": "ja",
+    "creator": "Kentarou Miura",
+    "creatorOriginal": "三浦建太郎",
+    "year": 1989,
+    "date": "2026-11-01",
+    "rating": 5,
+    "review": "A masterpiece.",
+    "tags": [
+      "Fantasy",
+      "Dark"
+    ],
+    "cover": "covers/manga/manga-0005.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "30002"
+    }
+  }
+]
