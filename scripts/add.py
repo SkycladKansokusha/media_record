@@ -47,6 +47,17 @@ except ImportError:
 TIMEOUT = 15
 MAX_RESULTS = 8
 COVER_MAX_SIZE = 1200  # px, longest side (only when Pillow is installed)
+MAX_TAGS = 3  # how many tags to prefill from a data source (typed tags are not limited)
+TAG_MAX_LENGTH = 30
+# Dropped by clean_tags (case-insensitive). "Fiction" is handled there: kept only if nothing else is left.
+TAG_BLACKLIST = {
+    "fiction", "general", "music", "accessible book", "protected daisy", "in library",
+    "large type books", "lending library", "internet archive wishlist",
+    "juvenile fiction", "juvenile literature",
+}
+# Commas are the separator of the Tags prompt, so a tag can't contain one.
+TAG_NOISE_RE = re.compile(r"[:;,]|\d{4,}|reading level", re.I)
+TAG_SMALL_WORDS = {"a", "an", "and", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with"}
 HEADERS = {"User-Agent": "my-media-log/1.0 (personal archive script)"}
 
 C = Colors
@@ -142,6 +153,17 @@ def ask_list(prompt: str, default: list[str], sep: str) -> list[str]:
     return [x.strip() for x in raw.split(sep) if x.strip()]
 
 
+def ask_tags(auto_tags: list[str]) -> list[str]:
+    """Prefilled tags can be kept, replaced or cleared; with none, ask until typed or declined."""
+    if auto_tags:
+        return ask_list("Tags (auto-filled, Enter to keep)", auto_tags, ",")
+    print(C.yellow("  No tags found online — please enter some (comma-separated)."))
+    while True:
+        tags = ask_list("Tags", [], ",")
+        if tags or ask_yes("  Save without tags?", False):
+            return tags
+
+
 def ask_review() -> str:
     print('Review — multiple lines allowed. Finish with a line containing only "."')
     print(C.dim('  (Leave the first line empty and press Enter to skip.)'))
@@ -197,6 +219,40 @@ def year_of(text) -> int | None:
     return int(m.group(1)) if m else None
 
 
+def title_case_tag(tag: str) -> str:
+    """Title Case, leaving hyphenated words, short acronyms and mixed-case words as they are."""
+    words = []
+    for i, word in enumerate(tag.split()):
+        lower = word.lower()
+        if "-" in word or (word.isupper() and len(word) <= 5):
+            words.append(word)
+        elif i > 0 and lower in TAG_SMALL_WORDS:
+            words.append(lower)
+        elif word.islower() or word.isupper():
+            words.append(word[0].upper() + lower[1:])
+        else:
+            words.append(word)
+    return " ".join(words)
+
+
+def clean_tags(raw_tags, limit: int = MAX_TAGS) -> list[str]:
+    """Normalize tags from a data source: Title Case, English only, no noise or duplicates, at most `limit`."""
+    tags, seen, had_fiction = [], set(), False
+    for raw in raw_tags or []:
+        tag = raw.strip() if isinstance(raw, str) else ""
+        if not tag or len(tag) > TAG_MAX_LENGTH or TAG_NOISE_RE.search(tag) or has_cjk(tag):
+            continue
+        tag = title_case_tag(tag)
+        key = tag.casefold()
+        if key == "fiction":
+            had_fiction = True
+        if key in TAG_BLACKLIST or key in seen:
+            continue
+        seen.add(key)
+        tags.append(tag)
+    return tags[:limit] if tags else (["Fiction"] if had_fiction else [])
+
+
 # ---------------------------- TMDB (movie / tv) ----------------------------
 
 TMDB_API = "https://api.themoviedb.org/3"
@@ -235,21 +291,23 @@ def tmdb_search(kind: str, query: str) -> list[dict]:
             "year": year_of(r.get("release_date") or r.get("first_air_date")),
             "coverUrl": f"{TMDB_IMG}{r['poster_path']}" if r.get("poster_path") else "",
             "source": {"provider": "tmdb", "id": str(r.get("id"))},
+            "tags": [],
             "_kind": kind,
         })
     return results
 
 
 def tmdb_details(item: dict) -> dict:
-    """Fetch director / creator, and a Chinese title as a suggested altTitle."""
+    """Fetch director / creator, genres as tags, and a Chinese title as a suggested altTitle."""
     kind, tid = item["_kind"], item["source"]["id"]
     try:
+        info = tmdb_request(f"/{kind}/{tid}", language="en-US")
+        item["tags"] = clean_tags([g.get("name") for g in info.get("genres", [])])
         if kind == "movie":
             credits = tmdb_request(f"/movie/{tid}/credits", language="en-US")
             directors = [c["name"] for c in credits.get("crew", []) if c.get("job") == "Director"]
             item["creator"] = ", ".join(directors[:2])
         else:
-            info = tmdb_request(f"/tv/{tid}", language="en-US")
             item["creator"] = ", ".join(c["name"] for c in info.get("created_by", [])[:2])
         zh = tmdb_request(f"/{kind}/{tid}", language="zh-CN")
         zh_title = zh.get("title") or zh.get("name") or ""
@@ -273,6 +331,8 @@ query ($search: String, $type: MediaType, $perPage: Int) {
       title { romaji english native }
       startDate { year }
       coverImage { extraLarge large }
+      genres
+      tags { name rank isMediaSpoiler isGeneralSpoiler }
       studios(isMain: true) { nodes { name } }
       staff(perPage: 12, sort: [RELEVANCE]) {
         edges { role node { name { full native } } }
@@ -298,6 +358,13 @@ def pick_staff(edges: list, kind: str):
     if kind == "NOVEL":
         return None
     return edges[0]["node"]["name"] if edges else None
+
+
+def anilist_tags(media: dict) -> list[str]:
+    """Genres first, then non-spoiler tags from the highest rank down."""
+    tags = [t for t in media.get("tags") or [] if not t.get("isMediaSpoiler") and not t.get("isGeneralSpoiler")]
+    tags.sort(key=lambda t: t.get("rank") or 0, reverse=True)
+    return clean_tags([*(media.get("genres") or []), *(t.get("name") for t in tags)])
 
 
 def anilist_search(kind: str, query: str, fmt: str | None = None) -> list[dict]:
@@ -331,6 +398,7 @@ def anilist_search(kind: str, query: str, fmt: str | None = None) -> list[dict]:
             "year": (m.get("startDate") or {}).get("year"),
             "coverUrl": (m.get("coverImage") or {}).get("extraLarge") or (m.get("coverImage") or {}).get("large") or "",
             "source": {"provider": "anilist", "id": str(m["id"])},
+            "tags": anilist_tags(m),
             "_extra": m.get("format") or "",
         })
     return results
@@ -366,6 +434,7 @@ def google_books_search(query: str) -> list[dict]:
             # larger image than the default thumbnail, over https
             "coverUrl": thumb.replace("http://", "https://").replace("&edge=curl", "").replace("zoom=1", "zoom=3") if thumb else "",
             "source": {"provider": "googlebooks", "id": item.get("id", "")},
+            "tags": clean_tags([part for c in info.get("categories") or [] for part in c.split("/")]),
         })
     return results
 
@@ -389,7 +458,7 @@ def books_search(query: str) -> list[dict]:
 def openlibrary_search(query: str) -> list[dict]:
     params = {
         "q": query, "limit": MAX_RESULTS,
-        "fields": "key,title,author_name,first_publish_year,cover_i,language",
+        "fields": "key,title,author_name,first_publish_year,cover_i,language,subject",
     }
     data = http_get("https://openlibrary.org/search.json", params=params).json()
     results = []
@@ -411,6 +480,7 @@ def openlibrary_search(query: str) -> list[dict]:
             "year": d.get("first_publish_year"),
             "coverUrl": f"https://covers.openlibrary.org/b/id/{d['cover_i']}-L.jpg" if d.get("cover_i") else "",
             "source": {"provider": "openlibrary", "id": (d.get("key") or "").split("/")[-1]},
+            "tags": clean_tags(d.get("subject")),
         })
     return results
 
@@ -445,6 +515,7 @@ def itunes_search(query: str) -> list[dict]:
             "year": year_of(r.get("releaseDate")),
             "coverUrl": art.replace("100x100bb", "1000x1000bb") if art else "",
             "source": {"provider": "itunes", "id": str(r.get("collectionId", ""))},
+            "tags": clean_tags([r.get("primaryGenreName")]),
         })
     return results
 
@@ -661,7 +732,7 @@ def run(category: str | None, manual: bool) -> int:
     if item is None:
         print(C.dim("\n  Manual mode."))
         item = {"title": "", "originalTitle": "", "originalLanguage": "", "altTitles": [],
-                "creator": "", "creatorOriginal": "", "year": None, "coverUrl": "", "source": None}
+                "creator": "", "creatorOriginal": "", "year": None, "coverUrl": "", "source": None, "tags": []}
 
     item = edit_fields(item)
 
@@ -691,7 +762,8 @@ def run(category: str | None, manual: bool) -> int:
     rating = ask_rating()
     review = ask_review()
     is_light_novel = category == "literature" and (item.get("source") or {}).get("provider") == "anilist" and item.get("_extra") == "NOVEL"
-    tags = ask_list("Tags", ["light novel"] if is_light_novel else [], ",")
+    auto_tags = item.get("tags") or []
+    tags = ask_tags(["light novel", *auto_tags][:MAX_TAGS] if is_light_novel else auto_tags)
     date = ask_date()
 
     entry = {
