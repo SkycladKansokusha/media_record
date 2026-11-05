@@ -1,5 +1,48 @@
 [
   {
+    "id": "manga-0029",
+    "title": "Goodbye, Eri",
+    "originalTitle": "さよなら絵梨",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Sayonara Eri"
+    ],
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2022,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0029.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "146983"
+    }
+  },
+  {
+    "id": "manga-0028",
+    "title": "Look Back",
+    "originalTitle": "ルックバック",
+    "originalLanguage": "ja",
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2021,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0028.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "136807"
+    }
+  },
+  {
     "id": "manga-0027",
     "title": "JoJo’s Bizarre Adventure: Part 8—JoJolion",
     "originalTitle": "ジョジョの奇妙な冒険 ジョジョリオン",
