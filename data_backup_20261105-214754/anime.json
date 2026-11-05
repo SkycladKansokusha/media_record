@@ -1,0 +1,661 @@
+[
+  {
+    "id": "anime-0035",
+    "title": "KONOSUBA -God's blessing on this wonderful world!",
+    "originalTitle": "この素晴らしい世界に祝福を！",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kono Subarashii Sekai ni Shukufuku wo!"
+    ],
+    "creator": "Takaomi Kanasaki",
+    "creatorOriginal": "金崎貴臣",
+    "year": 2016,
+    "date": "2026-11-05",
+    "rating": 4,
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0035.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21202"
+    }
+  },
+  {
+    "id": "anime-0034",
+    "title": "Chainsmoker Cat",
+    "originalTitle": "ヤニねこ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yani Neko"
+    ],
+    "creator": "Taku Kimura",
+    "creatorOriginal": "木村拓",
+    "year": 2026,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Comedy"
+    ],
+    "cover": "covers/anime/anime-0034.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "207141"
+    }
+  },
+  {
+    "id": "anime-0033",
+    "title": "The Night is Short, Walk on Girl",
+    "originalTitle": "夜は短し歩けよ乙女",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yoru wa Mijikashi Arukeyo Otome"
+    ],
+    "creator": "Masaaki Yuasa",
+    "creatorOriginal": "湯浅政明",
+    "year": 2017,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/anime/anime-0033.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "97917"
+    }
+  },
+  {
+    "id": "anime-0032",
+    "title": "The Dangers in My Heart",
+    "originalTitle": "僕の心のヤバイやつ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Boku no Kokoro no Yabai Yatsu"
+    ],
+    "creator": "Hiroaki Akagi",
+    "creatorOriginal": "赤城博昭",
+    "year": 2023,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0032.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "153152"
+    }
+  },
+  {
+    "id": "anime-0031",
+    "title": "BOCCHI THE ROCK!",
+    "originalTitle": "ぼっち・ざ・ろっく！",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Bocchi the Rock!"
+    ],
+    "creator": "Keiichirou Saitou",
+    "creatorOriginal": "斎藤圭一郎",
+    "year": 2022,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Music",
+      "Comedy"
+    ],
+    "cover": "covers/anime/anime-0031.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "130003"
+    }
+  },
+  {
+    "id": "anime-0030",
+    "title": "Violet Evergarden",
+    "originalTitle": "ヴァイオレット・エヴァーガーデン",
+    "originalLanguage": "ja",
+    "creator": "Taichi Ishidate",
+    "creatorOriginal": "石立太一",
+    "year": 2018,
+    "date": "2026-11-02",
+    "rating": 4,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/anime/anime-0030.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21827"
+    }
+  },
+  {
+    "id": "anime-0029",
+    "title": "One-Punch Man",
+    "originalTitle": "ワンパンマン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "One Punch Man"
+    ],
+    "creator": "Shingo Natsume",
+    "creatorOriginal": "夏目真悟",
+    "year": 2015,
+    "date": "2026-11-02",
+    "rating": 4,
+    "tags": [
+      "Sci-fi"
+    ],
+    "cover": "covers/anime/anime-0029.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21087"
+    }
+  },
+  {
+    "id": "anime-0028",
+    "title": "Mob Psycho 100",
+    "originalTitle": "モブサイコ100",
+    "originalLanguage": "ja",
+    "creator": "Yuzuru Tachikawa",
+    "creatorOriginal": "立川譲",
+    "year": 2016,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Sci-fi"
+    ],
+    "cover": "covers/anime/anime-0028.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21507"
+    }
+  },
+  {
+    "id": "anime-0027",
+    "title": "Clannad",
+    "originalTitle": "ＣＬＡＮＮＡＤ -クラナド-",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "CLANNAD"
+    ],
+    "creator": "Tatsuya Ishihara",
+    "creatorOriginal": "石原立也",
+    "year": 2007,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0027.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "2167"
+    }
+  },
+  {
+    "id": "anime-0026",
+    "title": "Your lie in April",
+    "originalTitle": "四月は君の嘘",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Shigatsu wa Kimi no Uso"
+    ],
+    "creator": "Kyouhei Ishiguro",
+    "creatorOriginal": "石黒恭平",
+    "year": 2014,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0026.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20665"
+    }
+  },
+  {
+    "id": "anime-0025",
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "originalTitle": "無職転生 ～異世界行ったら本気だす～",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Mushoku Tensei: Isekai Ittara Honki Dasu"
+    ],
+    "creator": "Manabu Okamoto",
+    "creatorOriginal": "岡本学",
+    "year": 2021,
+    "date": "2026-11-02",
+    "rating": 4,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0025.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "108465"
+    }
+  },
+  {
+    "id": "anime-0024",
+    "title": "Puella Magi Madoka Magica",
+    "originalTitle": "魔法少女まどか☆マギカ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Mahou Shoujo Madoka☆Magica"
+    ],
+    "creator": "Akiyuki Shinbou",
+    "creatorOriginal": "新房昭之",
+    "year": 2011,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0024.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "9756"
+    }
+  },
+  {
+    "id": "anime-0023",
+    "title": "Steins;Gate 0",
+    "originalTitle": "シュタインズ・ゲート ゼロ",
+    "originalLanguage": "ja",
+    "creator": "Kenichi Kawamura",
+    "creatorOriginal": "川村賢一",
+    "year": 2018,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Sci-fi"
+    ],
+    "cover": "covers/anime/anime-0023.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21127"
+    }
+  },
+  {
+    "id": "anime-0022",
+    "title": "Steins;Gate",
+    "originalTitle": "シュタインズ・ゲート",
+    "originalLanguage": "ja",
+    "creator": "Takuya Satou",
+    "creatorOriginal": "佐藤卓哉",
+    "year": 2011,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Sci-fi"
+    ],
+    "cover": "covers/anime/anime-0022.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "9253"
+    }
+  },
+  {
+    "id": "anime-0021",
+    "title": "Death Note",
+    "originalTitle": "DEATH NOTE",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "DEATH NOTE"
+    ],
+    "creator": "Tetsurou Araki",
+    "creatorOriginal": "荒木哲郎",
+    "year": 2006,
+    "date": "2026-11-02",
+    "rating": 4,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/anime/anime-0021.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "1535"
+    }
+  },
+  {
+    "id": "anime-0020",
+    "title": "ID: INVADED",
+    "originalTitle": "イド：インヴェイデッド",
+    "originalLanguage": "ja",
+    "creator": "Ei Aoki",
+    "creatorOriginal": "あおきえい",
+    "year": 2020,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/anime/anime-0020.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "110350"
+    }
+  },
+  {
+    "id": "anime-0019",
+    "title": "Fate/stay night: Unlimited Blade Works",
+    "originalTitle": "Fate/stay night [Unlimited Blade Works]",
+    "originalLanguage": "ja",
+    "creator": "Takahiro Miura",
+    "creatorOriginal": "三浦貴博",
+    "year": 2014,
+    "date": "2026-11-02",
+    "rating": 4,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0019.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "19603"
+    }
+  },
+  {
+    "id": "anime-0018",
+    "title": "Fate/Zero",
+    "originalTitle": "Fate/Zero",
+    "originalLanguage": "ja",
+    "creator": "Ei Aoki",
+    "creatorOriginal": "あおきえい",
+    "year": 2011,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0018.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "10087"
+    }
+  },
+  {
+    "id": "anime-0017",
+    "title": "Neon Genesis Evangelion",
+    "originalTitle": "新世紀エヴァンゲリオン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Shin Seiki Evangelion"
+    ],
+    "creator": "Hideaki Anno",
+    "creatorOriginal": "庵野秀明",
+    "year": 1995,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0017.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "30"
+    }
+  },
+  {
+    "id": "anime-0016",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "originalTitle": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST"
+    ],
+    "creator": "Yasuhiro Irie",
+    "creatorOriginal": "入江泰浩",
+    "year": 2009,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0016.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "5114"
+    }
+  },
+  {
+    "id": "anime-0015",
+    "title": "Parasyte -the maxim-",
+    "originalTitle": "寄生獣 セイの格率",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kiseijuu: Sei no Kakuritsu"
+    ],
+    "creator": "Kenichi Shimizu",
+    "creatorOriginal": "清水健一",
+    "year": 2014,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "cover": "covers/anime/anime-0015.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20623"
+    }
+  },
+  {
+    "id": "anime-0014",
+    "title": "Vinland Saga",
+    "originalTitle": "ヴィンランド・サガ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "VINLAND SAGA"
+    ],
+    "creator": "Shuuhei Yabuta",
+    "creatorOriginal": "籔田修平",
+    "year": 2019,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Epic"
+    ],
+    "cover": "covers/anime/anime-0014.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "101348"
+    }
+  },
+  {
+    "id": "anime-0013",
+    "title": "A Certain Scientific Railgun",
+    "originalTitle": "とある科学の超電磁砲",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Toaru Kagaku no Railgun"
+    ],
+    "creator": "Tatsuyuki Nagai",
+    "creatorOriginal": "長井龍雪",
+    "year": 2009,
+    "date": "2026-11-02",
+    "rating": 4.5,
+    "tags": [
+      "Fiction"
+    ],
+    "cover": "covers/anime/anime-0013.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "6213"
+    }
+  },
+  {
+    "id": "anime-0012",
+    "title": "Tamako Market",
+    "originalTitle": "たまこまーけっと",
+    "originalLanguage": "ja",
+    "creator": "Naoko Yamada",
+    "creatorOriginal": "山田尚子",
+    "year": 2013,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Comedy"
+    ],
+    "cover": "covers/anime/anime-0012.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "16417"
+    }
+  },
+  {
+    "id": "anime-0011",
+    "title": "K-ON!",
+    "originalTitle": "けいおん!",
+    "originalLanguage": "ja",
+    "creator": "Naoko Yamada",
+    "creatorOriginal": "山田尚子",
+    "year": 2009,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Music"
+    ],
+    "cover": "covers/anime/anime-0011.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "5680"
+    }
+  },
+  {
+    "id": "anime-0010",
+    "title": "The Tatami Galaxy",
+    "originalTitle": "四畳半神話大系",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yojouhan Shinwa Taikei"
+    ],
+    "creator": "Masaaki Yuasa",
+    "creatorOriginal": "湯浅政明",
+    "year": 2010,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0010.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "7785"
+    }
+  },
+  {
+    "id": "anime-0009",
+    "title": "Ping Pong the Animation",
+    "originalTitle": "ピンポン THE ANIMATION",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Ping Pong THE ANIMATION"
+    ],
+    "creator": "Masaaki Yuasa",
+    "creatorOriginal": "湯浅政明",
+    "year": 2014,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Sports"
+    ],
+    "cover": "covers/anime/anime-0009.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20607"
+    }
+  },
+  {
+    "id": "anime-0008",
+    "title": "JoJo's Bizarre Adventure: Golden Wind",
+    "originalTitle": "ジョジョの奇妙な冒険 黄金の風",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: Ougon no Kaze"
+    ],
+    "creator": "Hideya Takahashi",
+    "creatorOriginal": "高橋秀弥",
+    "year": 2018,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0008.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "102883"
+    }
+  },
+  {
+    "id": "anime-0007",
+    "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+    "originalTitle": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: Diamond wa Kudakenai"
+    ],
+    "creator": "Naokatsu Tsuda",
+    "creatorOriginal": "津田尚克",
+    "year": 2016,
+    "date": "2026-11-01",
+    "rating": 4.5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0007.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21450"
+    }
+  },
+  {
+    "id": "anime-0006",
+    "title": "Frieren: Beyond Journey’s End",
+    "originalTitle": "葬送のフリーレン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Sousou no Frieren"
+    ],
+    "creator": "Keiichirou Saitou",
+    "creatorOriginal": "斎藤圭一郎",
+    "year": 2023,
+    "date": "2026-11-01",
+    "rating": 5,
+    "review": "涙の別れなんて、僕達には似合わない。だってまた会った時に恥ずかしいからね。",
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0006.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "154587"
+    }
+  },
+  {
+    "id": "anime-0005",
+    "title": "Attack On Titan",
+    "originalTitle": "進撃の巨人",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Shingeki no Kyojin"
+    ],
+    "creator": "Hajime Isayama",
+    "creatorOriginal": "諫山創",
+    "year": 2013,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0005.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "16498"
+    }
+  }
+]

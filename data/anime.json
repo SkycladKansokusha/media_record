@@ -37,7 +37,8 @@
     "date": "2026-11-05",
     "rating": 4.5,
     "tags": [
-      "Comedy"
+      "Comedy",
+      "Slice of Life"
     ],
     "cover": "covers/anime/anime-0034.jpg",
     "source": {
@@ -59,7 +60,8 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Drama"
+      "Comedy",
+      "Romance"
     ],
     "cover": "covers/anime/anime-0033.jpg",
     "source": {
@@ -81,7 +83,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Romance"
+      "Comedy",
+      "Romance",
+      "Slice of Life"
     ],
     "cover": "covers/anime/anime-0032.jpg",
     "source": {
@@ -103,8 +107,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
+      "Comedy",
       "Music",
-      "Comedy"
+      "Slice of Life"
     ],
     "cover": "covers/anime/anime-0031.jpg",
     "source": {
@@ -123,7 +128,9 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
-      "Drama"
+      "Drama",
+      "Fantasy",
+      "Slice of Life"
     ],
     "cover": "covers/anime/anime-0030.jpg",
     "source": {
@@ -145,7 +152,9 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
-      "Sci-fi"
+      "Action",
+      "Comedy",
+      "Sci-Fi"
     ],
     "cover": "covers/anime/anime-0029.jpg",
     "source": {
@@ -164,7 +173,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Action",
+      "Comedy",
+      "Drama"
     ],
     "cover": "covers/anime/anime-0028.jpg",
     "source": {
@@ -186,6 +197,7 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
+      "Comedy",
       "Drama",
       "Romance"
     ],
@@ -210,6 +222,7 @@
     "rating": 5,
     "tags": [
       "Drama",
+      "Music",
       "Romance"
     ],
     "cover": "covers/anime/anime-0026.jpg",
@@ -232,6 +245,8 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
+      "Adventure",
+      "Drama",
       "Fantasy"
     ],
     "cover": "covers/anime/anime-0025.jpg",
@@ -254,6 +269,8 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
+      "Action",
+      "Drama",
       "Fantasy"
     ],
     "cover": "covers/anime/anime-0024.jpg",
@@ -273,7 +290,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Sci-fi"
+      "Drama",
+      "Psychological",
+      "Sci-Fi"
     ],
     "cover": "covers/anime/anime-0023.jpg",
     "source": {
@@ -292,7 +311,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Drama",
+      "Psychological",
+      "Sci-Fi"
     ],
     "cover": "covers/anime/anime-0022.jpg",
     "source": {
@@ -314,7 +335,9 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
-      "Mystery"
+      "Mystery",
+      "Psychological",
+      "Supernatural"
     ],
     "cover": "covers/anime/anime-0021.jpg",
     "source": {
@@ -333,7 +356,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Mystery"
+      "Drama",
+      "Mystery",
+      "Psychological"
     ],
     "cover": "covers/anime/anime-0020.jpg",
     "source": {
@@ -352,7 +377,9 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
-      "Fantasy"
+      "Action",
+      "Fantasy",
+      "Supernatural"
     ],
     "cover": "covers/anime/anime-0019.jpg",
     "source": {
@@ -371,6 +398,8 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
+      "Action",
+      "Drama",
       "Fantasy"
     ],
     "cover": "covers/anime/anime-0018.jpg",
@@ -393,7 +422,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Psychological"
+      "Action",
+      "Drama",
+      "Mecha"
     ],
     "cover": "covers/anime/anime-0017.jpg",
     "source": {
@@ -415,7 +446,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Fantasy"
+      "Action",
+      "Adventure",
+      "Drama"
     ],
     "cover": "covers/anime/anime-0016.jpg",
     "source": {
@@ -436,6 +469,11 @@
     "year": 2014,
     "date": "2026-11-02",
     "rating": 4.5,
+    "tags": [
+      "Action",
+      "Drama",
+      "Horror"
+    ],
     "cover": "covers/anime/anime-0015.jpg",
     "source": {
       "provider": "anilist",
@@ -456,7 +494,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Epic"
+      "Action",
+      "Adventure",
+      "Drama"
     ],
     "cover": "covers/anime/anime-0014.jpg",
     "source": {
@@ -478,7 +518,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Fiction"
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "cover": "covers/anime/anime-0013.jpg",
     "source": {
@@ -497,7 +539,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Comedy"
+      "Comedy",
+      "Slice of Life",
+      "School"
     ],
     "cover": "covers/anime/anime-0012.jpg",
     "source": {
@@ -517,7 +561,8 @@
     "rating": 5,
     "tags": [
       "Comedy",
-      "Music"
+      "Music",
+      "Slice of Life"
     ],
     "cover": "covers/anime/anime-0011.jpg",
     "source": {
@@ -539,6 +584,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
+      "Comedy",
+      "Mystery",
       "Psychological"
     ],
     "cover": "covers/anime/anime-0010.jpg",
@@ -561,6 +608,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
+      "Drama",
+      "Psychological",
       "Sports"
     ],
     "cover": "covers/anime/anime-0009.jpg",
@@ -583,7 +632,9 @@
     "date": "2026-11-01",
     "rating": 5,
     "tags": [
-      "Fantasy"
+      "Action",
+      "Adventure",
+      "Drama"
     ],
     "cover": "covers/anime/anime-0008.jpg",
     "source": {
@@ -605,7 +656,9 @@
     "date": "2026-11-01",
     "rating": 4.5,
     "tags": [
-      "Fantasy"
+      "Action",
+      "Adventure",
+      "Drama"
     ],
     "cover": "covers/anime/anime-0007.jpg",
     "source": {
@@ -628,6 +681,8 @@
     "rating": 5,
     "review": "涙の別れなんて、僕達には似合わない。だってまた会った時に恥ずかしいからね。",
     "tags": [
+      "Adventure",
+      "Drama",
       "Fantasy"
     ],
     "cover": "covers/anime/anime-0006.jpg",
@@ -650,6 +705,8 @@
     "date": "2026-11-01",
     "rating": 5,
     "tags": [
+      "Action",
+      "Drama",
       "Fantasy"
     ],
     "cover": "covers/anime/anime-0005.jpg",

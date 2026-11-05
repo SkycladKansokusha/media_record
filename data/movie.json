@@ -33,6 +33,7 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
+      "Drama",
       "Romance"
     ],
     "cover": "covers/movie/movie-0036.jpg",
@@ -54,7 +55,9 @@
     "date": "2026-11-03",
     "rating": 4.5,
     "tags": [
-      "Animation"
+      "Animation",
+      "Action",
+      "Adventure"
     ],
     "cover": "covers/movie/movie-0035.jpg",
     "source": {
@@ -75,7 +78,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Animation"
+      "Animation",
+      "Action",
+      "Adventure"
     ],
     "cover": "covers/movie/movie-0034.jpg",
     "source": {
@@ -96,6 +101,8 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
+      "Action",
+      "Thriller",
       "Crime"
     ],
     "cover": "covers/movie/movie-0033.jpg",
@@ -138,7 +145,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Action",
+      "Sci-Fi",
+      "Crime"
     ],
     "cover": "covers/movie/movie-0031.jpg",
     "source": {
@@ -159,7 +168,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Historical"
+      "Drama",
+      "History",
+      "War"
     ],
     "cover": "covers/movie/movie-0030.jpg",
     "source": {
@@ -180,7 +191,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Action",
+      "Thriller",
+      "Sci-Fi"
     ],
     "cover": "covers/movie/movie-0029.jpg",
     "source": {
@@ -201,6 +214,7 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
+      "Drama",
       "Crime"
     ],
     "cover": "covers/movie/movie-0028.jpg",
@@ -222,7 +236,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Drama"
+      "Comedy",
+      "Drama",
+      "Romance"
     ],
     "cover": "covers/movie/movie-0027.jpg",
     "source": {
@@ -243,7 +259,8 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Sci-Fi",
+      "Adventure"
     ],
     "cover": "covers/movie/movie-0026.jpg",
     "source": {
@@ -264,7 +281,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Sci-fi"
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
     ],
     "cover": "covers/movie/movie-0025.jpg",
     "source": {
@@ -285,7 +304,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "War"
+      "War",
+      "Drama",
+      "History"
     ],
     "cover": "covers/movie/movie-0024.jpg",
     "source": {
@@ -306,6 +327,7 @@
     "date": "2026-11-03",
     "rating": 4,
     "tags": [
+      "Comedy",
       "Romance",
       "Drama"
     ],
@@ -349,7 +371,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Epic"
+      "Adventure",
+      "Action",
+      "Fantasy"
     ],
     "cover": "covers/movie/movie-0021.jpg",
     "source": {
@@ -407,7 +431,9 @@
     "date": "2026-11-02",
     "rating": 4,
     "tags": [
-      "Sci-fi"
+      "Sci-Fi",
+      "Action",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0018.jpg",
     "source": {
@@ -428,7 +454,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Drama"
+      "Drama",
+      "Comedy",
+      "History"
     ],
     "cover": "covers/movie/movie-0017.jpg",
     "source": {
@@ -449,7 +477,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Drama"
+      "Drama",
+      "Family",
+      "Comedy"
     ],
     "cover": "covers/movie/movie-0016.jpg",
     "source": {
@@ -470,7 +500,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Historical"
+      "Drama",
+      "History"
     ],
     "cover": "covers/movie/movie-0015.jpg",
     "source": {
@@ -491,7 +522,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "War"
+      "Comedy",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0014.jpg",
     "source": {
@@ -512,6 +544,8 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
+      "Drama",
+      "History",
       "War"
     ],
     "cover": "covers/movie/movie-0013.jpg",
@@ -533,7 +567,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "War"
+      "War",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0012.jpg",
     "source": {
@@ -554,6 +589,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
+      "Drama",
+      "History",
       "War"
     ],
     "cover": "covers/movie/movie-0011.jpg",
@@ -575,7 +612,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Thriller"
+      "Drama",
+      "Thriller",
+      "Mystery"
     ],
     "cover": "covers/movie/movie-0010.jpg",
     "source": {
@@ -596,7 +635,7 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Thriller"
+      "Drama"
     ],
     "cover": "covers/movie/movie-0009.jpg",
     "source": {
@@ -617,7 +656,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Thriller"
+      "History",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0008.jpg",
     "source": {
@@ -639,7 +679,8 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Romance"
+      "Romance",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0007.jpg",
     "source": {
@@ -661,6 +702,7 @@
     "rating": 5,
     "tags": [
       "Crime",
+      "Drama",
       "Thriller"
     ],
     "cover": "covers/movie/movie-0006.jpg",
@@ -682,7 +724,9 @@
     "date": "2026-11-02",
     "rating": 4.5,
     "tags": [
-      "Black Comedy"
+      "Thriller",
+      "Comedy",
+      "History"
     ],
     "cover": "covers/movie/movie-0005.jpg",
     "source": {
@@ -703,7 +747,9 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Black Comedy"
+      "Comedy",
+      "Thriller",
+      "Drama"
     ],
     "cover": "covers/movie/movie-0004.jpg",
     "source": {
@@ -725,7 +771,9 @@
     "rating": 5,
     "review": "Love transcends time and space.",
     "tags": [
-      "Sci-fi"
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
     ],
     "cover": "covers/movie/movie-0003.jpg",
     "source": {
@@ -746,7 +794,7 @@
     "date": "2026-11-01",
     "rating": 5,
     "tags": [
-      "Psychological"
+      "Drama"
     ],
     "cover": "covers/movie/movie-0002.jpg",
     "source": {
@@ -768,7 +816,9 @@
     "rating": 5,
     "review": "First superhero movie.",
     "tags": [
-      "Sci-fi"
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
     "cover": "covers/movie/movie-0001.jpg",
     "source": {
