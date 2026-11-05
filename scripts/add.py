@@ -47,17 +47,57 @@ except ImportError:
 TIMEOUT = 15
 MAX_RESULTS = 8
 COVER_MAX_SIZE = 1200  # px, longest side (only when Pillow is installed)
-MAX_TAGS = 3  # how many tags to prefill from a data source (typed tags are not limited)
-TAG_MAX_LENGTH = 30
-# Dropped by clean_tags (case-insensitive). "Fiction" is handled there: kept only if nothing else is left.
-TAG_BLACKLIST = {
-    "fiction", "general", "music", "accessible book", "protected daisy", "in library",
-    "large type books", "lending library", "internet archive wishlist",
-    "juvenile fiction", "juvenile literature",
+# How many tags to prefill from a data source (tags you type are never limited or filtered).
+MAX_TAGS = 3
+# Longer candidates are noise (Open Library subjects can be whole sentences).
+TAG_MAX_LENGTH = 40
+# Canonical spellings of the genres every category may use; whitelists only contain canonical names.
+GENRES_COMMON = {
+    "Action", "Adventure", "Animation", "Biography", "Comedy", "Crime",
+    "Documentary", "Drama", "Family", "Fantasy", "History", "Horror",
+    "Music", "Musical", "Mystery", "Romance", "Sci-Fi", "Sport",
+    "Thriller", "War", "Western",
 }
-# Commas are the separator of the Tags prompt, so a tag can't contain one.
-TAG_NOISE_RE = re.compile(r"[:;,]|\d{4,}|reading level", re.I)
-TAG_SMALL_WORDS = {"a", "an", "and", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with"}
+# Extra genres that are common for anime only.
+GENRES_ANIME_EXTRA = {
+    "Isekai", "Mecha", "Iyashikei", "Slice of Life", "School", "Supernatural",
+    "Psychological", "Sports", "Magic", "Magical Girl", "Military",
+    "Martial Arts", "Space", "Super Power", "Idol",
+}
+# Target-audience tags; manga keeps one of them in the last position (see filter_tags).
+DEMOGRAPHICS = {"Shonen", "Seinen", "Shojo", "Josei", "Kodomomuke"}
+# Whitelist per category; None = no whitelist (only the generic "Music" is dropped).
+ALLOWED_TAGS = {
+    "movie": GENRES_COMMON,
+    "tv": GENRES_COMMON,
+    "literature": GENRES_COMMON,
+    "anime": GENRES_COMMON | GENRES_ANIME_EXTRA,
+    "manga": GENRES_COMMON | DEMOGRAPHICS,
+    "music": None,
+}
+# Always dropped, before and after alias conversion: any candidate containing one of these (lowercase).
+BLOCKED_TAGS = {
+    "ecchi", "hentai", "harem", "reverse harem", "erotica", "nudity",
+    "sexual content", "lolicon", "shotacon", "borderline porn", "pornography",
+}
+# Lowercase candidate → canonical name(s), expanded in place. "sports" stays "Sports" for anime (see resolve_tag).
+TAG_ALIASES = {
+    "science fiction": ["Sci-Fi"], "sci fi": ["Sci-Fi"], "scifi": ["Sci-Fi"], "sf": ["Sci-Fi"],
+    "sci-fi & fantasy": ["Sci-Fi", "Fantasy"],
+    "action & adventure": ["Action", "Adventure"],
+    "war & politics": ["War"],
+    "suspense": ["Thriller"],
+    "detective": ["Mystery"], "detective and mystery": ["Mystery"], "mystery and detective": ["Mystery"],
+    "historical": ["History"], "historical fiction": ["History"],
+    "sports": ["Sport"],
+    "shounen": ["Shonen"], "shoujo": ["Shojo"],
+    "kids": ["Kodomomuke"], "children": ["Kodomomuke"],
+    "mahou shoujo": ["Magical Girl"],
+}
+# Book subjects: "Fantasy fiction" is matched as "Fantasy" (literature only).
+BOOK_TAG_SUFFIX_RE = re.compile(r"\s+(?:fiction|stories|novels|literature)$", re.I)
+# How many dropped candidates the "(filtered out: …)" hint lists.
+MAX_FILTERED_SHOWN = 6
 HEADERS = {"User-Agent": "my-media-log/1.0 (personal archive script)"}
 
 C = Colors
@@ -157,7 +197,7 @@ def ask_tags(auto_tags: list[str]) -> list[str]:
     """Prefilled tags can be kept, replaced or cleared; with none, ask until typed or declined."""
     if auto_tags:
         return ask_list("Tags (auto-filled, Enter to keep)", auto_tags, ",")
-    print(C.yellow("  No tags found online — please enter some (comma-separated)."))
+    print(C.yellow("  No common tags found online — please enter some (comma-separated)."))
     while True:
         tags = ask_list("Tags", [], ",")
         if tags or ask_yes("  Save without tags?", False):
@@ -219,38 +259,60 @@ def year_of(text) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def title_case_tag(tag: str) -> str:
-    """Title Case, leaving hyphenated words, short acronyms and mixed-case words as they are."""
-    words = []
-    for i, word in enumerate(tag.split()):
-        lower = word.lower()
-        if "-" in word or (word.isupper() and len(word) <= 5):
-            words.append(word)
-        elif i > 0 and lower in TAG_SMALL_WORDS:
-            words.append(lower)
-        elif word.islower() or word.isupper():
-            words.append(word[0].upper() + lower[1:])
-        else:
-            words.append(word)
-    return " ".join(words)
+def is_blocked_tag(tag: str) -> bool:
+    key = tag.casefold()
+    return any(word in key for word in BLOCKED_TAGS)
 
 
-def clean_tags(raw_tags, limit: int = MAX_TAGS) -> list[str]:
-    """Normalize tags from a data source: Title Case, English only, no noise or duplicates, at most `limit`."""
-    tags, seen, had_fiction = [], set(), False
+def resolve_tag(tag: str, category: str) -> list[str]:
+    """Candidate → the name(s) to look up in the whitelist (aliases and book suffixes applied)."""
+    key = tag.casefold()
+    if key == "sports" and category == "anime":
+        return [tag]
+    if key in TAG_ALIASES:
+        return TAG_ALIASES[key]
+    if category == "literature":
+        stripped = BOOK_TAG_SUFFIX_RE.sub("", tag)
+        return TAG_ALIASES.get(stripped.casefold(), [stripped])
+    return [tag]
+
+
+def filter_tags(raw_tags, category: str, limit: int = MAX_TAGS) -> tuple[list[str], list[str]]:
+    """Returns (kept tags, candidates dropped as blocked or not whitelisted). No network access."""
+    allowed = ALLOWED_TAGS[category]
+    canonical = {name.casefold(): name for name in allowed or ()}
+    kept, dropped = [], []
     for raw in raw_tags or []:
         tag = raw.strip() if isinstance(raw, str) else ""
-        if not tag or len(tag) > TAG_MAX_LENGTH or TAG_NOISE_RE.search(tag) or has_cjk(tag):
+        if not tag or len(tag) > TAG_MAX_LENGTH or ":" in tag or ";" in tag:
             continue
-        tag = title_case_tag(tag)
-        key = tag.casefold()
-        if key == "fiction":
-            had_fiction = True
-        if key in TAG_BLACKLIST or key in seen:
-            continue
-        seen.add(key)
-        tags.append(tag)
-    return tags[:limit] if tags else (["Fiction"] if had_fiction else [])
+        if is_blocked_tag(tag):
+            dropped.append(tag)
+        elif allowed is None:
+            (dropped if tag.casefold() == "music" else kept).append(tag)
+        else:
+            names = [canonical[n.casefold()] for n in resolve_tag(tag, category)
+                     if n.casefold() in canonical and not is_blocked_tag(n)]
+            kept.extend(names)
+            if not names:
+                dropped.append(tag)
+    unique = list({t.casefold(): t for t in kept}.values())
+    if category == "manga":
+        demographic = next((t for t in unique if t in DEMOGRAPHICS), None)
+        if demographic:
+            genres = [t for t in unique if t not in DEMOGRAPHICS]
+            return genres[:limit - 1] + [demographic], list(dict.fromkeys(dropped))
+    return unique[:limit], list(dict.fromkeys(dropped))
+
+
+def clean_tags(raw_tags, category: str, limit: int = MAX_TAGS) -> list[str]:
+    return filter_tags(raw_tags, category, limit)[0]
+
+
+def tag_fields(raw_tags, category: str) -> dict:
+    """The tag keys of a search result; _filteredTags is only shown as a hint before the Tags prompt."""
+    tags, filtered = filter_tags(raw_tags, category)
+    return {"tags": tags, "_filteredTags": filtered}
 
 
 # ---------------------------- TMDB (movie / tv) ----------------------------
@@ -302,7 +364,7 @@ def tmdb_details(item: dict) -> dict:
     kind, tid = item["_kind"], item["source"]["id"]
     try:
         info = tmdb_request(f"/{kind}/{tid}", language="en-US")
-        item["tags"] = clean_tags([g.get("name") for g in info.get("genres", [])])
+        item.update(tag_fields([g.get("name") for g in info.get("genres", [])], kind))
         if kind == "movie":
             credits = tmdb_request(f"/movie/{tid}/credits", language="en-US")
             directors = [c["name"] for c in credits.get("crew", []) if c.get("job") == "Director"]
@@ -361,10 +423,10 @@ def pick_staff(edges: list, kind: str):
 
 
 def anilist_tags(media: dict) -> list[str]:
-    """Genres first, then non-spoiler tags from the highest rank down."""
+    """Tag candidates: genres first, then non-spoiler tags from the highest rank down."""
     tags = [t for t in media.get("tags") or [] if not t.get("isMediaSpoiler") and not t.get("isGeneralSpoiler")]
     tags.sort(key=lambda t: t.get("rank") or 0, reverse=True)
-    return clean_tags([*(media.get("genres") or []), *(t.get("name") for t in tags)])
+    return [*(media.get("genres") or []), *(t.get("name") for t in tags)]
 
 
 def anilist_search(kind: str, query: str, fmt: str | None = None) -> list[dict]:
@@ -398,7 +460,7 @@ def anilist_search(kind: str, query: str, fmt: str | None = None) -> list[dict]:
             "year": (m.get("startDate") or {}).get("year"),
             "coverUrl": (m.get("coverImage") or {}).get("extraLarge") or (m.get("coverImage") or {}).get("large") or "",
             "source": {"provider": "anilist", "id": str(m["id"])},
-            "tags": anilist_tags(m),
+            **tag_fields(anilist_tags(m), "literature" if fmt == "NOVEL" else kind.lower()),
             "_extra": m.get("format") or "",
         })
     return results
@@ -434,7 +496,7 @@ def google_books_search(query: str) -> list[dict]:
             # larger image than the default thumbnail, over https
             "coverUrl": thumb.replace("http://", "https://").replace("&edge=curl", "").replace("zoom=1", "zoom=3") if thumb else "",
             "source": {"provider": "googlebooks", "id": item.get("id", "")},
-            "tags": clean_tags([part for c in info.get("categories") or [] for part in c.split("/")]),
+            **tag_fields([part for c in info.get("categories") or [] for part in c.split("/")], "literature"),
         })
     return results
 
@@ -480,7 +542,7 @@ def openlibrary_search(query: str) -> list[dict]:
             "year": d.get("first_publish_year"),
             "coverUrl": f"https://covers.openlibrary.org/b/id/{d['cover_i']}-L.jpg" if d.get("cover_i") else "",
             "source": {"provider": "openlibrary", "id": (d.get("key") or "").split("/")[-1]},
-            "tags": clean_tags(d.get("subject")),
+            **tag_fields(d.get("subject"), "literature"),
         })
     return results
 
@@ -515,7 +577,7 @@ def itunes_search(query: str) -> list[dict]:
             "year": year_of(r.get("releaseDate")),
             "coverUrl": art.replace("100x100bb", "1000x1000bb") if art else "",
             "source": {"provider": "itunes", "id": str(r.get("collectionId", ""))},
-            "tags": clean_tags([r.get("primaryGenreName")]),
+            **tag_fields([r.get("primaryGenreName")], "music"),
         })
     return results
 
@@ -762,6 +824,8 @@ def run(category: str | None, manual: bool) -> int:
     rating = ask_rating()
     review = ask_review()
     is_light_novel = category == "literature" and (item.get("source") or {}).get("provider") == "anilist" and item.get("_extra") == "NOVEL"
+    if item.get("_filteredTags"):
+        print(C.dim(f"  (filtered out: {', '.join(item['_filteredTags'][:MAX_FILTERED_SHOWN])})"))
     auto_tags = item.get("tags") or []
     tags = ask_tags(["light novel", *auto_tags][:MAX_TAGS] if is_light_novel else auto_tags)
     date = ask_date()
