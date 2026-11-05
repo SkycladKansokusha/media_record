@@ -1,5 +1,310 @@
 [
   {
+    "id": "manga-0026",
+    "title": "Citrus",
+    "originalTitle": "citrus",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "citrus"
+    ],
+    "creator": "Saburouta",
+    "creatorOriginal": "サブロウタ",
+    "year": 2012,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/manga/manga-0026.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "80145"
+    }
+  },
+  {
+    "id": "manga-0025",
+    "title": "Skip and Loafer",
+    "originalTitle": "スキップとローファー",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Skip to Loafer"
+    ],
+    "creator": "Misaki Takamatsu",
+    "creatorOriginal": "高松美咲",
+    "year": 2018,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0025.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "109285"
+    }
+  },
+  {
+    "id": "manga-0024",
+    "title": "Dandadan",
+    "originalTitle": "ダンダダン",
+    "originalLanguage": "ja",
+    "creator": "Yukinobu Tatsu",
+    "creatorOriginal": "龍幸伸",
+    "year": 2021,
+    "date": "2026-11-05",
+    "rating": 4,
+    "tags": [
+      "Action",
+      "Comedy",
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0024.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "132029"
+    }
+  },
+  {
+    "id": "manga-0023",
+    "title": "Blue Box",
+    "originalTitle": "アオのハコ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Ao no Hako"
+    ],
+    "creator": "Kouji Miura",
+    "creatorOriginal": "三浦糀",
+    "year": 2021,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0023.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "132182"
+    }
+  },
+  {
+    "id": "manga-0022",
+    "title": "Tatsuki Fujimoto Before Chainsaw Man: 22-26",
+    "originalTitle": "藤本タツキ短編集 22-26",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Fujimoto Tatsuki Tanpenshuu: 22-26"
+    ],
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2021,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ],
+    "cover": "covers/manga/manga-0022.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "141157"
+    }
+  },
+  {
+    "id": "manga-0021",
+    "title": "Tatsuki Fujimoto Before Chainsaw Man: 17-21",
+    "originalTitle": "藤本タツキ短編集 17－21",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Fujimoto Tatsuki Tanpenshuu: 17-21"
+    ],
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2021,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "cover": "covers/manga/manga-0021.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "139855"
+    }
+  },
+  {
+    "id": "manga-0020",
+    "title": "Chainsaw Man",
+    "originalTitle": "チェンソーマン",
+    "originalLanguage": "ja",
+    "creator": "Tatsuki Fujimoto",
+    "creatorOriginal": "藤本タツキ",
+    "year": 2018,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Action",
+      "Comedy",
+      "Shonen"
+    ],
+    "cover": "covers/manga/manga-0020.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "105778"
+    }
+  },
+  {
+    "id": "manga-0019",
+    "title": "Battle Angel Alita",
+    "originalTitle": "銃夢",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "GUNNM"
+    ],
+    "creator": "Yukito Kishiro",
+    "creatorOriginal": "木城ゆきと ",
+    "year": 1990,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Sci-Fi",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0019.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "30768"
+    }
+  },
+  {
+    "id": "manga-0018",
+    "title": "At the Mountains of Madness",
+    "originalTitle": "狂気の山脈にて ラヴクラフト傑作集",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kyouki no Sanmyaku nite: Lovecraft Kessakushuu"
+    ],
+    "creator": "Gou Tanabe",
+    "creatorOriginal": "田辺剛",
+    "year": 2016,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0018.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "104782"
+    }
+  },
+  {
+    "id": "manga-0017",
+    "title": "After the Rain",
+    "originalTitle": "恋は雨上がりのように",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Koi wa Ameagari no You ni"
+    ],
+    "creator": "Jun Mayuzuki",
+    "creatorOriginal": "眉月じゅん",
+    "year": 2014,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0017.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "86639"
+    }
+  },
+  {
+    "id": "manga-0016",
+    "title": "Heavenly Delusion",
+    "originalTitle": "天国大魔境",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Tengoku Daimakyou"
+    ],
+    "creator": "Masakazu Ishiguro",
+    "creatorOriginal": "石黒正教",
+    "year": 2018,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Adventure",
+      "Drama",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0016.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "101942"
+    }
+  },
+  {
+    "id": "manga-0015",
+    "title": "Orb: On the Movements of the Earth",
+    "originalTitle": "チ。―地球の運動について―",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Chi. Chikyuu no Undou ni Tsuite"
+    ],
+    "creator": "Uoto",
+    "creatorOriginal": "魚豊",
+    "year": 2020,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "History",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0015.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "124139"
+    }
+  },
+  {
+    "id": "manga-0014",
+    "title": "20th Century Boys",
+    "originalTitle": "20世紀少年",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "20 Seiki Shounen"
+    ],
+    "creator": "Naoki Urasawa",
+    "creatorOriginal": "浦沢直樹",
+    "year": 1999,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "Mystery",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0014.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "30003"
+    }
+  },
+  {
     "id": "manga-0013",
     "title": "Vagabond",
     "originalTitle": "バガボンド",
