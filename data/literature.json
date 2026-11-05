@@ -1,5 +1,108 @@
 [
   {
+    "id": "literature-0030",
+    "title": "The Miracles of the Namiya General Store",
+    "originalTitle": "ナミヤ雑貨店の奇蹟",
+    "originalLanguage": "ja",
+    "creator": "Keigo Higashino",
+    "creatorOriginal": "東野圭吾",
+    "year": 2012,
+    "date": "2026-11-06",
+    "rating": 5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/literature/literature-0030.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL24327321W"
+    }
+  },
+  {
+    "id": "literature-0029",
+    "title": "Newcomer",
+    "originalTitle": "参者",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Shinzanmono"
+    ],
+    "creator": "Keigo Higashino",
+    "creatorOriginal": "東野圭吾",
+    "year": 2018,
+    "date": "2026-11-06",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0029.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL20665212W"
+    }
+  },
+  {
+    "id": "literature-0028",
+    "title": "L’étranger",
+    "originalLanguage": "fr",
+    "altTitles": [
+      "The Stranger",
+      "The Outsider"
+    ],
+    "creator": "Albert Camus",
+    "year": 1942,
+    "date": "2026-11-06",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "History",
+      "Romance"
+    ],
+    "cover": "covers/literature/literature-0028.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL1230613W"
+    }
+  },
+  {
+    "id": "literature-0027",
+    "title": "Nineteen Eighty-Four",
+    "originalLanguage": "en",
+    "altTitles": [
+      "1984"
+    ],
+    "creator": "George Orwell",
+    "year": 1949,
+    "date": "2026-11-06",
+    "rating": 5,
+    "tags": [
+      "Sci-Fi",
+      "Drama",
+      "Fantasy"
+    ],
+    "cover": "covers/literature/literature-0027.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL1168083W"
+    }
+  },
+  {
+    "id": "literature-0026",
+    "title": "The End of Eternity",
+    "originalLanguage": "en",
+    "creator": "Isaac Asimov",
+    "year": 1955,
+    "date": "2026-11-06",
+    "rating": 4.5,
+    "tags": [
+      "Sci-Fi"
+    ],
+    "cover": "covers/literature/literature-0026.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL46108W"
+    }
+  },
+  {
     "id": "literature-0025",
     "title": "A Wild Sheep Chase",
     "originalTitle": "羊をめぐる冒険",
