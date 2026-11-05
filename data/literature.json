@@ -13,7 +13,9 @@
     "date": "2026-11-03",
     "rating": 4.5,
     "tags": [
-      "light novel"
+      "light novel",
+      "Drama",
+      "Romance"
     ],
     "cover": "covers/literature/literature-0023.jpg",
     "source": {
@@ -87,7 +89,9 @@
     "date": "2026-11-03",
     "rating": 4.5,
     "tags": [
-      "Mystery"
+      "Mystery",
+      "Crime",
+      "Thriller"
     ],
     "cover": "covers/literature/literature-0019.jpg",
     "source": {
@@ -104,7 +108,8 @@
     "date": "2026-11-03",
     "rating": 4.5,
     "tags": [
-      "Mystery"
+      "Mystery",
+      "Thriller"
     ],
     "cover": "covers/literature/literature-0018.jpg",
     "source": {
@@ -138,7 +143,9 @@
     "date": "2026-11-03",
     "rating": 4.5,
     "tags": [
-      "Mystery"
+      "History",
+      "Mystery",
+      "Romance"
     ],
     "cover": "covers/literature/literature-0016.jpg",
     "source": {
@@ -155,7 +162,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Detective"
+      "Mystery",
+      "History",
+      "Crime"
     ],
     "cover": "covers/literature/literature-0015.jpg",
     "source": {
@@ -189,7 +198,9 @@
     "date": "2026-11-03",
     "rating": 5,
     "tags": [
-      "Mystery"
+      "Mystery",
+      "Crime",
+      "History"
     ],
     "cover": "covers/literature/literature-0013.jpg",
     "source": {
@@ -211,7 +222,9 @@
     "date": "2026-11-03",
     "rating": 4,
     "tags": [
-      "light novel"
+      "light novel",
+      "Drama",
+      "Romance"
     ],
     "cover": "covers/literature/literature-0012.jpg",
     "source": {
@@ -233,7 +246,9 @@
     "date": "2026-11-03",
     "rating": 3.5,
     "tags": [
-      "light novel"
+      "light novel",
+      "Adventure",
+      "Drama"
     ],
     "cover": "covers/literature/literature-0011.jpg",
     "source": {
@@ -255,7 +270,9 @@
     "date": "2026-11-03",
     "rating": 3.5,
     "tags": [
-      "light novel"
+      "light novel",
+      "Drama",
+      "Mystery"
     ],
     "cover": "covers/literature/literature-0010.jpg",
     "source": {
@@ -274,7 +291,8 @@
     "date": "2026-11-03",
     "rating": 4,
     "tags": [
-      "light novel"
+      "light novel",
+      "Drama"
     ],
     "cover": "covers/literature/literature-0009.jpg",
     "source": {
@@ -296,7 +314,9 @@
     "date": "2026-11-03",
     "rating": 4,
     "tags": [
-      "light novel"
+      "light novel",
+      "Drama",
+      "Romance"
     ],
     "cover": "covers/literature/literature-0008.jpg",
     "source": {
@@ -366,8 +386,7 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Tragedy",
-      "Chinese Literature"
+      "History"
     ],
     "cover": "covers/literature/literature-0004.jpg",
     "source": {
@@ -386,8 +405,7 @@
     "date": "2026-11-02",
     "rating": 5,
     "tags": [
-      "Tragedy",
-      "Chinese Literature"
+      "History"
     ],
     "cover": "covers/literature/literature-0003.jpg",
     "source": {

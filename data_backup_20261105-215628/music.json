@@ -1,0 +1,282 @@
+[
+  {
+    "id": "music-0016",
+    "title": "Quiet Emotion",
+    "originalTitle": "Quiet Emotion",
+    "originalLanguage": "ja",
+    "creator": "Naoko Gushima",
+    "creatorOriginal": "具島直子",
+    "year": 1997,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "City Pop"
+    ],
+    "cover": "covers/music/music-0016.jpg"
+  },
+  {
+    "id": "music-0015",
+    "title": "miss. G",
+    "originalTitle": "miss. G",
+    "originalLanguage": "ja",
+    "creator": "Naoko Gushima",
+    "creatorOriginal": "具島直子",
+    "year": 1996,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "City Pop"
+    ],
+    "cover": "covers/music/music-0015.jpg"
+  },
+  {
+    "id": "music-0014",
+    "title": "Merry Christmas, Mr. Lawrence",
+    "creator": "Ryuichi Sakamoto",
+    "creatorOriginal": "坂本龍一",
+    "year": 2015,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Classic"
+    ],
+    "cover": "covers/music/music-0014.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1500818100"
+    }
+  },
+  {
+    "id": "music-0013",
+    "title": "Diffusion of Responsibility",
+    "originalLanguage": "ja",
+    "creator": "She Her Her Hers",
+    "year": 2023,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Japanese"
+    ],
+    "cover": "covers/music/music-0013.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1714405870"
+    }
+  },
+  {
+    "id": "music-0012",
+    "title": "So Long Adele OST",
+    "originalTitle": "火山旅夢 (Original Soundtrack)",
+    "originalLanguage": "en",
+    "creator": "Monster Siren",
+    "creatorOriginal": "塞壬唱片-MSR",
+    "year": 2023,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0012.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1701767563"
+    }
+  },
+  {
+    "id": "music-0011",
+    "title": "Your Name.",
+    "originalTitle": "君の名は。",
+    "originalLanguage": "ja",
+    "creator": "RADWIMPS",
+    "year": 2016,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0011.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1434005560"
+    }
+  },
+  {
+    "id": "music-0010",
+    "title": "Persona 4 Original Soundtrack",
+    "originalTitle": "ペルソナ4 オリジナル・サウンドトラック",
+    "originalLanguage": "ja",
+    "creator": "ATLUS Sound Team",
+    "creatorOriginal": "ATLUS Sound Team, Shihoko Hirata, Haruko Komiya & 珠梨",
+    "year": 2008,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0010.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1546590618"
+    }
+  },
+  {
+    "id": "music-0009",
+    "title": "Persona 5 (Original Soundtrack)",
+    "originalLanguage": "ja",
+    "creator": "ATLUS Sound Team",
+    "year": 2017,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0009.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1226945984"
+    }
+  },
+  {
+    "id": "music-0008",
+    "title": "Persona 3 Reload (Original Soundtrack)",
+    "originalLanguage": "ja",
+    "creator": "ATLUS Sound Team / ATLUS GAME MUSIC",
+    "year": 2024,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0008.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1733407068"
+    }
+  },
+  {
+    "id": "music-0007",
+    "title": "kikUUiki",
+    "originalLanguage": "ja",
+    "creator": "Sakanaction",
+    "creatorOriginal": "サカナクション",
+    "year": 2010,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Japanese"
+    ],
+    "cover": "covers/music/music-0007.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "358082162"
+    }
+  },
+  {
+    "id": "music-0006",
+    "title": "834.194",
+    "originalLanguage": "ja",
+    "creator": "Sakanaction",
+    "creatorOriginal": "サカナクション",
+    "year": 2019,
+    "date": "2026-11-02",
+    "rating": 5,
+    "review": "The distance between Sapporo and Tokyo.",
+    "tags": [
+      "Japanese"
+    ],
+    "cover": "covers/music/music-0006.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1465208767"
+    }
+  },
+  {
+    "id": "music-0005",
+    "title": "Go to the Future",
+    "originalTitle": "GO TO THE FUTURE",
+    "originalLanguage": "ja",
+    "creator": "Sakanaction",
+    "creatorOriginal": "サカナクション",
+    "year": 2007,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Japanese"
+    ],
+    "cover": "covers/music/music-0005.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "252312252"
+    }
+  },
+  {
+    "id": "music-0004",
+    "title": "Sakana Zukan",
+    "originalTitle": "魚図鑑",
+    "originalLanguage": "ja",
+    "creator": "Sakanaction",
+    "creatorOriginal": "サカナクション",
+    "year": 2018,
+    "date": "2026-11-02",
+    "rating": 5,
+    "tags": [
+      "Japanese"
+    ],
+    "cover": "covers/music/music-0004.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1358578519"
+    }
+  },
+  {
+    "id": "music-0003",
+    "title": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture) [Deluxe Edition]",
+    "originalLanguage": "en",
+    "creator": "Various Artists",
+    "year": 2018,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Soundtrack"
+    ],
+    "cover": "covers/music/music-0003.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "1453876765"
+    }
+  },
+  {
+    "id": "music-0002",
+    "title": "Hybrid Theory (Deluxe Edition)",
+    "originalLanguage": "en",
+    "creator": "LINKIN PARK",
+    "year": 2000,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Rock"
+    ],
+    "cover": "covers/music/music-0002.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "590431776"
+    }
+  },
+  {
+    "id": "music-0001",
+    "title": "Meteora",
+    "originalLanguage": "en",
+    "creator": "LINKIN PARK",
+    "year": 2003,
+    "date": "2026-11-01",
+    "rating": 5,
+    "tags": [
+      "Rock"
+    ],
+    "cover": "covers/music/music-0001.jpg",
+    "source": {
+      "provider": "itunes",
+      "id": "528435845"
+    }
+  }
+]

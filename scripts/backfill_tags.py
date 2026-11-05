@@ -50,6 +50,8 @@ RATE_LIMIT_WAIT = 20
 RATE_LIMIT_RETRIES = 3
 # iTunes stores tried in turn; a lookup only finds albums sold in that store.
 ITUNES_STORES = ["US", "JP", "KR", "TW"]
+# First tag of literature entries from AniList, the same as add.py prefills for novels.
+LIGHT_NOVEL_TAG = "light novel"
 # GraphQL query for one AniList work, by id.
 ANILIST_BY_ID_QUERY = """
 query ($id: Int) {
@@ -217,6 +219,8 @@ def process_entry(entry: dict, category: str, cache: dict, report: Report) -> li
         reason = f"all candidates filtered: {fmt_list(names)}" if names else "no candidates returned"
         report.not_updated.append((category, eid, title, old, reason))
         return None
+    if category == "literature" and provider == "anilist":
+        new = [LIGHT_NOVEL_TAG, *new][:MAX_TAGS]
     if same_tags(old, new):
         report.unchanged += 1
         return None
