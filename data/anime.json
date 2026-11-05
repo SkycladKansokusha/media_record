@@ -1,5 +1,27 @@
 [
   {
+    "id": "anime-0034",
+    "title": "Chainsmoker Cat",
+    "originalTitle": "ヤニねこ",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yani Neko"
+    ],
+    "creator": "Taku Kimura",
+    "creatorOriginal": "木村拓",
+    "year": 2026,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Comedy"
+    ],
+    "cover": "covers/anime/anime-0034.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "207141"
+    }
+  },
+  {
     "id": "anime-0033",
     "title": "The Night is Short, Walk on Girl",
     "originalTitle": "夜は短し歩けよ乙女",
