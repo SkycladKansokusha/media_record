@@ -1,29 +1,5 @@
 [
   {
-    "id": "movie-0040",
-    "title": "The Boy and the Heron",
-    "originalTitle": "君たちはどう生きるか",
-    "originalLanguage": "ja",
-    "altTitles": [
-      "你想活出怎样的人生"
-    ],
-    "creator": "Hayao Miyazaki",
-    "creatorOriginal": "宮崎駿",
-    "year": 2023,
-    "date": "2026-11-05",
-    "rating": 4.5,
-    "tags": [
-      "Animation",
-      "Fantasy",
-      "Drama"
-    ],
-    "cover": "covers/movie/movie-0040.jpg",
-    "source": {
-      "provider": "tmdb",
-      "id": "508883"
-    }
-  },
-  {
     "id": "movie-0039",
     "title": "My Neighbor Totoro",
     "originalTitle": "となりのトトロ",
@@ -36,7 +12,6 @@
     "year": 1988,
     "date": "2026-11-05",
     "rating": 5,
-    "review": "。",
     "tags": [
       "Fantasy",
       "Animation",

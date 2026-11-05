@@ -1,5 +1,101 @@
 [
   {
+    "id": "anime-0045",
+    "title": "5 Centimeters per Second",
+    "originalTitle": "秒速５センチメートル",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Byousoku 5 Centimeter"
+    ],
+    "creator": "Makoto Shinkai",
+    "creatorOriginal": "新海誠",
+    "year": 2007,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0045.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "1689"
+    }
+  },
+  {
+    "id": "anime-0044",
+    "title": "Suzume",
+    "originalTitle": "すずめの戸締まり",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Suzume no Tojimari"
+    ],
+    "creator": "Makoto Shinkai",
+    "creatorOriginal": "新海誠",
+    "year": 2022,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Mystery"
+    ],
+    "cover": "covers/anime/anime-0044.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "142770"
+    }
+  },
+  {
+    "id": "anime-0043",
+    "title": "Weathering With You",
+    "originalTitle": "天気の子",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Tenki no Ko"
+    ],
+    "creator": "Makoto Shinkai",
+    "creatorOriginal": "新海誠",
+    "year": 2019,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0043.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "106286"
+    }
+  },
+  {
+    "id": "anime-0042",
+    "title": "Your Name.",
+    "originalTitle": "君の名は。",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kimi no Na wa."
+    ],
+    "creator": "Makoto Shinkai",
+    "creatorOriginal": "新海誠",
+    "year": 2016,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "cover": "covers/anime/anime-0042.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21519"
+    }
+  },
+  {
     "id": "anime-0041",
     "title": "Cosmic Princess Kaguya!",
     "originalTitle": "超かぐや姫！",
