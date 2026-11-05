@@ -1,5 +1,142 @@
 [
   {
+    "id": "anime-0041",
+    "title": "Cosmic Princess Kaguya!",
+    "originalTitle": "超かぐや姫！",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Chou Kaguya-hime!"
+    ],
+    "creator": "Shingo Yamashita",
+    "creatorOriginal": "山下清悟",
+    "year": 2026,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "cover": "covers/anime/anime-0041.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "201903"
+    }
+  },
+  {
+    "id": "anime-0040",
+    "title": "Blue Giant",
+    "originalTitle": "BLUE GIANT",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "BLUE GIANT"
+    ],
+    "creator": "Yuzuru Tachikawa",
+    "creatorOriginal": "立川譲",
+    "year": 2023,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Music"
+    ],
+    "cover": "covers/anime/anime-0040.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "140499"
+    }
+  },
+  {
+    "id": "anime-0039",
+    "title": "Akira",
+    "originalTitle": "AKIRA",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "AKIRA"
+    ],
+    "creator": "Katsuhiro Ootomo",
+    "creatorOriginal": "大友克洋",
+    "year": 1988,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Horror"
+    ],
+    "cover": "covers/anime/anime-0039.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "47"
+    }
+  },
+  {
+    "id": "anime-0038",
+    "title": "Ghost in the Shell",
+    "originalTitle": "GHOST IN THE SHELL / 攻殻機動隊",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "GHOST IN THE SHELL: Koukaku Kidoutai"
+    ],
+    "creator": "Mamoru Oshii",
+    "creatorOriginal": "押井守",
+    "year": 1995,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Psychological",
+      "Sci-Fi"
+    ],
+    "cover": "covers/anime/anime-0038.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "43"
+    }
+  },
+  {
+    "id": "anime-0037",
+    "title": "Cowboy Bebop",
+    "originalTitle": "カウボーイビバップ",
+    "originalLanguage": "ja",
+    "creator": "Shinichirou Watanabe",
+    "creatorOriginal": "渡辺信一郎",
+    "year": 1998,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "cover": "covers/anime/anime-0037.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "1"
+    }
+  },
+  {
+    "id": "anime-0036",
+    "title": "Cyberpunk: Edgerunners",
+    "originalTitle": "サイバーパンク エッジランナーズ",
+    "originalLanguage": "ja",
+    "creator": "Hiroyuki Imaishi",
+    "creatorOriginal": "今石洋之",
+    "year": 2022,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Drama",
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0036.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "120377"
+    }
+  },
+  {
     "id": "anime-0035",
     "title": "KONOSUBA -God's blessing on this wonderful world!",
     "originalTitle": "この素晴らしい世界に祝福を！",
