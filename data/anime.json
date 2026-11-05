@@ -1,5 +1,29 @@
 [
   {
+    "id": "anime-0035",
+    "title": "KONOSUBA -God's blessing on this wonderful world!",
+    "originalTitle": "この素晴らしい世界に祝福を！",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Kono Subarashii Sekai ni Shukufuku wo!"
+    ],
+    "creator": "Takaomi Kanasaki",
+    "creatorOriginal": "金崎貴臣",
+    "year": 2016,
+    "date": "2026-11-05",
+    "rating": 4,
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0035.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21202"
+    }
+  },
+  {
     "id": "anime-0034",
     "title": "Chainsmoker Cat",
     "originalTitle": "ヤニねこ",

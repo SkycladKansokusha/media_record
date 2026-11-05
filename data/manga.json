@@ -1,5 +1,26 @@
 [
   {
+    "id": "manga-0013",
+    "title": "Vagabond",
+    "originalTitle": "バガボンド",
+    "originalLanguage": "ja",
+    "creator": "Takehiko Inoue",
+    "creatorOriginal": "井上雄彦",
+    "year": 1998,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0013.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "30656"
+    }
+  },
+  {
     "id": "manga-0012",
     "title": "The Climber",
     "originalTitle": "孤高の人",
