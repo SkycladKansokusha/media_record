@@ -1,5 +1,29 @@
 [
   {
+    "id": "manga-0027",
+    "title": "JoJo’s Bizarre Adventure: Part 8—JoJolion",
+    "originalTitle": "ジョジョの奇妙な冒険 ジョジョリオン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: JoJolion"
+    ],
+    "creator": "Hirohiko Araki",
+    "creatorOriginal": "荒木飛呂彦",
+    "year": 2011,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Seinen"
+    ],
+    "cover": "covers/manga/manga-0027.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "55515"
+    }
+  },
+  {
     "id": "manga-0026",
     "title": "Citrus",
     "originalTitle": "citrus",
