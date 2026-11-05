@@ -1,5 +1,43 @@
 [
   {
+    "id": "literature-0025",
+    "title": "A Wild Sheep Chase",
+    "originalTitle": "羊をめぐる冒険",
+    "originalLanguage": "ja",
+    "creator": "Haruki Murakami",
+    "creatorOriginal": "村上春樹",
+    "year": 1982,
+    "date": "2026-11-05",
+    "rating": 4.5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0025.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL2625441W"
+    }
+  },
+  {
+    "id": "literature-0024",
+    "title": "Kafka on the Shore",
+    "originalTitle": "海辺のカフカ",
+    "originalLanguage": "ja",
+    "creator": "Haruki Murakami",
+    "creatorOriginal": "村上春樹",
+    "year": 2001,
+    "date": "2026-11-05",
+    "rating": 5,
+    "tags": [
+      "Mystery"
+    ],
+    "cover": "covers/literature/literature-0024.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL2625431W"
+    }
+  },
+  {
     "id": "literature-0023",
     "title": "Three Days of Happiness",
     "originalTitle": "三日間の幸福",
