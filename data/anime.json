@@ -1,5 +1,28 @@
 [
   {
+    "id": "anime-0046",
+    "title": "Deaimon: Recipe for Happiness",
+    "originalTitle": "であいもん",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Deaimon"
+    ],
+    "creator": "Fumitoshi Oizaki",
+    "creatorOriginal": "追崎史敏",
+    "year": 2022,
+    "date": "2026-11-06",
+    "rating": 5,
+    "tags": [
+      "Slice of Life",
+      "Iyashikei"
+    ],
+    "cover": "covers/anime/anime-0046.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "132532"
+    }
+  },
+  {
     "id": "anime-0045",
     "title": "5 Centimeters per Second",
     "originalTitle": "秒速５センチメートル",
