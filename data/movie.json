@@ -1,5 +1,28 @@
 [
   {
+    "id": "movie-0041",
+    "title": "All About Lily Chou-Chou",
+    "originalTitle": "リリイ・シュシュのすべて",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "关于莉莉周的一切"
+    ],
+    "creator": "Shunji Iwai",
+    "creatorOriginal": "岩井俊二",
+    "year": 2001,
+    "date": "2026-11-07",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Crime"
+    ],
+    "cover": "covers/movie/movie-0041.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "16664"
+    }
+  },
+  {
     "id": "movie-0040",
     "title": "The Boy and the Heron",
     "originalTitle": "君たちはどう生きるか",

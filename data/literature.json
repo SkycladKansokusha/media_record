@@ -1,5 +1,24 @@
 [
   {
+    "id": "literature-0031",
+    "title": "The Great Gatsby",
+    "originalLanguage": "en",
+    "creator": "F. Scott Fitzgerald",
+    "year": 1920,
+    "date": "2026-11-07",
+    "rating": 5,
+    "tags": [
+      "History",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/literature/literature-0031.jpg",
+    "source": {
+      "provider": "openlibrary",
+      "id": "OL468431W"
+    }
+  },
+  {
     "id": "literature-0030",
     "title": "The Miracles of the Namiya General Store",
     "originalTitle": "ナミヤ雑貨店の奇蹟",
