@@ -1,5 +1,332 @@
 [
   {
+    "id": "anime-0060",
+    "title": "My Love Story!!",
+    "originalTitle": "俺物語!!",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Ore Monogatari!!"
+    ],
+    "creator": "Morio Asaka",
+    "creatorOriginal": "浅香守生",
+    "year": 2015,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Comedy",
+      "Romance",
+      "School"
+    ],
+    "cover": "covers/anime/anime-0060.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20946"
+    }
+  },
+  {
+    "id": "anime-0059",
+    "title": "Makeine: Too Many Losing Heroines!",
+    "originalTitle": "負けヒロインが多すぎる！",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Make Heroine ga Oosugiru!"
+    ],
+    "creator": "Takibi Amamori",
+    "creatorOriginal": "雨森たきび",
+    "year": 2024,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0059.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "171457"
+    }
+  },
+  {
+    "id": "anime-0058",
+    "title": "Uncle from Another World",
+    "originalTitle": "異世界おじさん",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Isekai Oji-san"
+    ],
+    "creator": "Shigeki Kawai ",
+    "creatorOriginal": "河合滋樹",
+    "year": 2022,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "cover": "covers/anime/anime-0058.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "135806"
+    }
+  },
+  {
+    "id": "anime-0057",
+    "title": "My Youth Romantic Comedy Is Wrong, as I Expected",
+    "originalTitle": "やはり俺の青春ラブコメはまちがっている。",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Yahari Ore no Seishun Love Come wa Machigatteiru."
+    ],
+    "creator": "Ai Yoshimura",
+    "creatorOriginal": "吉村愛",
+    "year": 2013,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0057.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "14813"
+    }
+  },
+  {
+    "id": "anime-0056",
+    "title": "Cells at Work!!",
+    "originalTitle": "はたらく細胞!!",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Hataraku Saibou!!"
+    ],
+    "creator": "Hirofumi Ogura",
+    "creatorOriginal": "小倉宏文",
+    "year": 2021,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "cover": "covers/anime/anime-0056.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "108631"
+    }
+  },
+  {
+    "id": "anime-0055",
+    "title": "Wasteful Days of High School Girls",
+    "originalTitle": "女子高生の無駄づかい",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Joshikousei no Mudazukai"
+    ],
+    "creator": "Hijiri Sanpei",
+    "creatorOriginal": "さんぺい聖",
+    "year": 2019,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Slice of Life",
+      "School"
+    ],
+    "cover": "covers/anime/anime-0055.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "105081"
+    }
+  },
+  {
+    "id": "anime-0054",
+    "title": "The Disastrous Life of Saiki K.",
+    "originalTitle": "斉木楠雄のΨ難",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Saiki Kusuo no Ψ-nan"
+    ],
+    "creator": "Hiroaki Sakurai",
+    "creatorOriginal": "桜井弘明",
+    "year": 2016,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Comedy",
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "cover": "covers/anime/anime-0054.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21804"
+    }
+  },
+  {
+    "id": "anime-0053",
+    "title": "Monthly Girls' Nozaki-kun",
+    "originalTitle": "月刊少女野崎くん",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Gekkan Shoujo Nozaki-kun"
+    ],
+    "creator": "Mitsue Yamazaki",
+    "creatorOriginal": "山﨑みつえ",
+    "year": 2014,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0053.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20668"
+    }
+  },
+  {
+    "id": "anime-0052",
+    "title": "Toradora!",
+    "originalTitle": "とらドラ！",
+    "originalLanguage": "ja",
+    "creator": "Tatsuyuki Nagai",
+    "creatorOriginal": "長井龍雪",
+    "year": 2008,
+    "date": "2026-11-08",
+    "rating": 4,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0052.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "4224"
+    }
+  },
+  {
+    "id": "anime-0051",
+    "title": "Hyouka",
+    "originalTitle": "氷菓",
+    "originalLanguage": "ja",
+    "creator": "Yasuhiro Takemoto",
+    "creatorOriginal": "武本康弘",
+    "year": 2012,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Mystery",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0051.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "12189"
+    }
+  },
+  {
+    "id": "anime-0050",
+    "title": "Love, Chunibyo & Other Delusions",
+    "originalTitle": "中二病でも恋がしたい!",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Chuunibyou demo Koi ga Shitai!"
+    ],
+    "creator": "Tatsuya Ishihara",
+    "creatorOriginal": "石原立也",
+    "year": 2012,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0050.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "14741"
+    }
+  },
+  {
+    "id": "anime-0049",
+    "title": "ReLIFE",
+    "originalTitle": "ReLIFE",
+    "originalLanguage": "ja",
+    "creator": "Tomochi Kosaka",
+    "creatorOriginal": "小坂知",
+    "year": 2016,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/anime/anime-0049.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21049"
+    }
+  },
+  {
+    "id": "anime-0048",
+    "title": "ERASED",
+    "originalTitle": "僕だけがいない街",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Boku dake ga Inai Machi"
+    ],
+    "creator": "Tomohiko Itou",
+    "creatorOriginal": "伊藤智彦",
+    "year": 2016,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Mystery",
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0048.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "21234"
+    }
+  },
+  {
+    "id": "anime-0047",
+    "title": "ODDTAXI",
+    "originalTitle": "オッドタクシー",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Odd Taxi"
+    ],
+    "creator": "Baku Kinoshita",
+    "creatorOriginal": "木下麦",
+    "year": 2021,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Mystery",
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0047.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "128547"
+    }
+  },
+  {
     "id": "anime-0046",
     "title": "Deaimon: Recipe for Happiness",
     "originalTitle": "であいもん",
