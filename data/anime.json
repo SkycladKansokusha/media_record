@@ -1,5 +1,77 @@
 [
   {
+    "id": "anime-0059",
+    "title": "JoJo's Bizarre Adventure (TV)",
+    "originalTitle": "ジョジョの奇妙な冒険 (TV)",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken (TV)"
+    ],
+    "creator": "Naokatsu Tsuda",
+    "creatorOriginal": "津田尚克",
+    "year": 2012,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "cover": "covers/anime/anime-0059.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "14719"
+    }
+  },
+  {
+    "id": "anime-0058",
+    "title": "JoJo's Bizarre Adventure: Stardust Crusaders",
+    "originalTitle": "ジョジョの奇妙な冒険 スターダストクルセイダース",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: Stardust Crusaders"
+    ],
+    "creator": "Naokatsu Tsuda",
+    "creatorOriginal": "津田尚克",
+    "year": 2014,
+    "date": "2026-11-08",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "cover": "covers/anime/anime-0058.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "20474"
+    }
+  },
+  {
+    "id": "anime-0057",
+    "title": "JoJo's Bizarre Adventure: STONE OCEAN",
+    "originalTitle": "ジョジョの奇妙な冒険 ストーンオーシャン",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "JoJo no Kimyou na Bouken: Stone Ocean"
+    ],
+    "creator": "Toshiyuki Katou",
+    "creatorOriginal": "加藤敏幸",
+    "year": 2021,
+    "date": "2026-11-08",
+    "rating": 4.5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "cover": "covers/anime/anime-0057.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "131942"
+    }
+  },
+  {
     "id": "anime-0056",
     "title": "My Love Story!!",
     "originalTitle": "俺物語!!",
