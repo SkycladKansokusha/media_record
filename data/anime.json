@@ -1,6 +1,6 @@
 [
   {
-    "id": "anime-0060",
+    "id": "anime-0056",
     "title": "My Love Story!!",
     "originalTitle": "俺物語!!",
     "originalLanguage": "ja",
@@ -17,14 +17,14 @@
       "Romance",
       "School"
     ],
-    "cover": "covers/anime/anime-0060.jpg",
+    "cover": "covers/anime/anime-0056.jpg",
     "source": {
       "provider": "anilist",
       "id": "20946"
     }
   },
   {
-    "id": "anime-0059",
+    "id": "anime-0055",
     "title": "Makeine: Too Many Losing Heroines!",
     "originalTitle": "負けヒロインが多すぎる！",
     "originalLanguage": "ja",
@@ -41,14 +41,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0059.jpg",
+    "cover": "covers/anime/anime-0055.jpg",
     "source": {
       "provider": "anilist",
       "id": "171457"
     }
   },
   {
-    "id": "anime-0058",
+    "id": "anime-0054",
     "title": "Uncle from Another World",
     "originalTitle": "異世界おじさん",
     "originalLanguage": "ja",
@@ -65,14 +65,14 @@
       "Comedy",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0058.jpg",
+    "cover": "covers/anime/anime-0054.jpg",
     "source": {
       "provider": "anilist",
       "id": "135806"
     }
   },
   {
-    "id": "anime-0057",
+    "id": "anime-0053",
     "title": "My Youth Romantic Comedy Is Wrong, as I Expected",
     "originalTitle": "やはり俺の青春ラブコメはまちがっている。",
     "originalLanguage": "ja",
@@ -89,14 +89,14 @@
       "Drama",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0057.jpg",
+    "cover": "covers/anime/anime-0053.jpg",
     "source": {
       "provider": "anilist",
       "id": "14813"
     }
   },
   {
-    "id": "anime-0056",
+    "id": "anime-0052",
     "title": "Cells at Work!!",
     "originalTitle": "はたらく細胞!!",
     "originalLanguage": "ja",
@@ -113,14 +113,14 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0056.jpg",
+    "cover": "covers/anime/anime-0052.jpg",
     "source": {
       "provider": "anilist",
       "id": "108631"
     }
   },
   {
-    "id": "anime-0055",
+    "id": "anime-0051",
     "title": "Wasteful Days of High School Girls",
     "originalTitle": "女子高生の無駄づかい",
     "originalLanguage": "ja",
@@ -137,14 +137,14 @@
       "Slice of Life",
       "School"
     ],
-    "cover": "covers/anime/anime-0055.jpg",
+    "cover": "covers/anime/anime-0051.jpg",
     "source": {
       "provider": "anilist",
       "id": "105081"
     }
   },
   {
-    "id": "anime-0054",
+    "id": "anime-0050",
     "title": "The Disastrous Life of Saiki K.",
     "originalTitle": "斉木楠雄のΨ難",
     "originalLanguage": "ja",
@@ -161,14 +161,14 @@
       "Slice of Life",
       "Supernatural"
     ],
-    "cover": "covers/anime/anime-0054.jpg",
+    "cover": "covers/anime/anime-0050.jpg",
     "source": {
       "provider": "anilist",
       "id": "21804"
     }
   },
   {
-    "id": "anime-0053",
+    "id": "anime-0049",
     "title": "Monthly Girls' Nozaki-kun",
     "originalTitle": "月刊少女野崎くん",
     "originalLanguage": "ja",
@@ -185,14 +185,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0053.jpg",
+    "cover": "covers/anime/anime-0049.jpg",
     "source": {
       "provider": "anilist",
       "id": "20668"
     }
   },
   {
-    "id": "anime-0052",
+    "id": "anime-0048",
     "title": "Toradora!",
     "originalTitle": "とらドラ！",
     "originalLanguage": "ja",
@@ -206,14 +206,14 @@
       "Drama",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0052.jpg",
+    "cover": "covers/anime/anime-0048.jpg",
     "source": {
       "provider": "anilist",
       "id": "4224"
     }
   },
   {
-    "id": "anime-0051",
+    "id": "anime-0047",
     "title": "Hyouka",
     "originalTitle": "氷菓",
     "originalLanguage": "ja",
@@ -227,14 +227,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0051.jpg",
+    "cover": "covers/anime/anime-0047.jpg",
     "source": {
       "provider": "anilist",
       "id": "12189"
     }
   },
   {
-    "id": "anime-0050",
+    "id": "anime-0046",
     "title": "Love, Chunibyo & Other Delusions",
     "originalTitle": "中二病でも恋がしたい!",
     "originalLanguage": "ja",
@@ -251,14 +251,14 @@
       "Drama",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0050.jpg",
+    "cover": "covers/anime/anime-0046.jpg",
     "source": {
       "provider": "anilist",
       "id": "14741"
     }
   },
   {
-    "id": "anime-0049",
+    "id": "anime-0045",
     "title": "ReLIFE",
     "originalTitle": "ReLIFE",
     "originalLanguage": "ja",
@@ -272,14 +272,14 @@
       "Drama",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0049.jpg",
+    "cover": "covers/anime/anime-0045.jpg",
     "source": {
       "provider": "anilist",
       "id": "21049"
     }
   },
   {
-    "id": "anime-0048",
+    "id": "anime-0044",
     "title": "ERASED",
     "originalTitle": "僕だけがいない街",
     "originalLanguage": "ja",
@@ -296,14 +296,14 @@
       "Mystery",
       "Psychological"
     ],
-    "cover": "covers/anime/anime-0048.jpg",
+    "cover": "covers/anime/anime-0044.jpg",
     "source": {
       "provider": "anilist",
       "id": "21234"
     }
   },
   {
-    "id": "anime-0047",
+    "id": "anime-0043",
     "title": "ODDTAXI",
     "originalTitle": "オッドタクシー",
     "originalLanguage": "ja",
@@ -320,14 +320,14 @@
       "Mystery",
       "Psychological"
     ],
-    "cover": "covers/anime/anime-0047.jpg",
+    "cover": "covers/anime/anime-0043.jpg",
     "source": {
       "provider": "anilist",
       "id": "128547"
     }
   },
   {
-    "id": "anime-0046",
+    "id": "anime-0042",
     "title": "Deaimon: Recipe for Happiness",
     "originalTitle": "であいもん",
     "originalLanguage": "ja",
@@ -343,14 +343,14 @@
       "Slice of Life",
       "Iyashikei"
     ],
-    "cover": "covers/anime/anime-0046.jpg",
+    "cover": "covers/anime/anime-0042.jpg",
     "source": {
       "provider": "anilist",
       "id": "132532"
     }
   },
   {
-    "id": "anime-0045",
+    "id": "anime-0041",
     "title": "5 Centimeters per Second",
     "originalTitle": "秒速５センチメートル",
     "originalLanguage": "ja",
@@ -367,14 +367,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0045.jpg",
+    "cover": "covers/anime/anime-0041.jpg",
     "source": {
       "provider": "anilist",
       "id": "1689"
     }
   },
   {
-    "id": "anime-0044",
+    "id": "anime-0040",
     "title": "Suzume",
     "originalTitle": "すずめの戸締まり",
     "originalLanguage": "ja",
@@ -391,14 +391,14 @@
       "Fantasy",
       "Mystery"
     ],
-    "cover": "covers/anime/anime-0044.jpg",
+    "cover": "covers/anime/anime-0040.jpg",
     "source": {
       "provider": "anilist",
       "id": "142770"
     }
   },
   {
-    "id": "anime-0043",
+    "id": "anime-0039",
     "title": "Weathering With You",
     "originalTitle": "天気の子",
     "originalLanguage": "ja",
@@ -415,14 +415,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0043.jpg",
+    "cover": "covers/anime/anime-0039.jpg",
     "source": {
       "provider": "anilist",
       "id": "106286"
     }
   },
   {
-    "id": "anime-0042",
+    "id": "anime-0038",
     "title": "Your Name.",
     "originalTitle": "君の名は。",
     "originalLanguage": "ja",
@@ -439,14 +439,14 @@
       "Romance",
       "Supernatural"
     ],
-    "cover": "covers/anime/anime-0042.jpg",
+    "cover": "covers/anime/anime-0038.jpg",
     "source": {
       "provider": "anilist",
       "id": "21519"
     }
   },
   {
-    "id": "anime-0041",
+    "id": "anime-0037",
     "title": "Cosmic Princess Kaguya!",
     "originalTitle": "超かぐや姫！",
     "originalLanguage": "ja",
@@ -463,14 +463,14 @@
       "Comedy",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0041.jpg",
+    "cover": "covers/anime/anime-0037.jpg",
     "source": {
       "provider": "anilist",
       "id": "201903"
     }
   },
   {
-    "id": "anime-0040",
+    "id": "anime-0036",
     "title": "Blue Giant",
     "originalTitle": "BLUE GIANT",
     "originalLanguage": "ja",
@@ -486,14 +486,14 @@
       "Drama",
       "Music"
     ],
-    "cover": "covers/anime/anime-0040.jpg",
+    "cover": "covers/anime/anime-0036.jpg",
     "source": {
       "provider": "anilist",
       "id": "140499"
     }
   },
   {
-    "id": "anime-0039",
+    "id": "anime-0035",
     "title": "Akira",
     "originalTitle": "AKIRA",
     "originalLanguage": "ja",
@@ -510,14 +510,14 @@
       "Adventure",
       "Horror"
     ],
-    "cover": "covers/anime/anime-0039.jpg",
+    "cover": "covers/anime/anime-0035.jpg",
     "source": {
       "provider": "anilist",
       "id": "47"
     }
   },
   {
-    "id": "anime-0038",
+    "id": "anime-0034",
     "title": "Ghost in the Shell",
     "originalTitle": "GHOST IN THE SHELL / 攻殻機動隊",
     "originalLanguage": "ja",
@@ -534,14 +534,14 @@
       "Psychological",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0038.jpg",
+    "cover": "covers/anime/anime-0034.jpg",
     "source": {
       "provider": "anilist",
       "id": "43"
     }
   },
   {
-    "id": "anime-0037",
+    "id": "anime-0033",
     "title": "Cowboy Bebop",
     "originalTitle": "カウボーイビバップ",
     "originalLanguage": "ja",
@@ -555,14 +555,14 @@
       "Adventure",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0037.jpg",
+    "cover": "covers/anime/anime-0033.jpg",
     "source": {
       "provider": "anilist",
       "id": "1"
     }
   },
   {
-    "id": "anime-0036",
+    "id": "anime-0032",
     "title": "Cyberpunk: Edgerunners",
     "originalTitle": "サイバーパンク エッジランナーズ",
     "originalLanguage": "ja",
@@ -576,14 +576,14 @@
       "Drama",
       "Psychological"
     ],
-    "cover": "covers/anime/anime-0036.jpg",
+    "cover": "covers/anime/anime-0032.jpg",
     "source": {
       "provider": "anilist",
       "id": "120377"
     }
   },
   {
-    "id": "anime-0035",
+    "id": "anime-0031",
     "title": "KONOSUBA -God's blessing on this wonderful world!",
     "originalTitle": "この素晴らしい世界に祝福を！",
     "originalLanguage": "ja",
@@ -600,14 +600,14 @@
       "Comedy",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0035.jpg",
+    "cover": "covers/anime/anime-0031.jpg",
     "source": {
       "provider": "anilist",
       "id": "21202"
     }
   },
   {
-    "id": "anime-0034",
+    "id": "anime-0030",
     "title": "Chainsmoker Cat",
     "originalTitle": "ヤニねこ",
     "originalLanguage": "ja",
@@ -623,14 +623,14 @@
       "Comedy",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0034.jpg",
+    "cover": "covers/anime/anime-0030.jpg",
     "source": {
       "provider": "anilist",
       "id": "207141"
     }
   },
   {
-    "id": "anime-0033",
+    "id": "anime-0029",
     "title": "The Night is Short, Walk on Girl",
     "originalTitle": "夜は短し歩けよ乙女",
     "originalLanguage": "ja",
@@ -646,14 +646,14 @@
       "Comedy",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0033.jpg",
+    "cover": "covers/anime/anime-0029.jpg",
     "source": {
       "provider": "anilist",
       "id": "97917"
     }
   },
   {
-    "id": "anime-0032",
+    "id": "anime-0028",
     "title": "The Dangers in My Heart",
     "originalTitle": "僕の心のヤバイやつ",
     "originalLanguage": "ja",
@@ -670,14 +670,14 @@
       "Romance",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0032.jpg",
+    "cover": "covers/anime/anime-0028.jpg",
     "source": {
       "provider": "anilist",
       "id": "153152"
     }
   },
   {
-    "id": "anime-0031",
+    "id": "anime-0027",
     "title": "BOCCHI THE ROCK!",
     "originalTitle": "ぼっち・ざ・ろっく！",
     "originalLanguage": "ja",
@@ -694,14 +694,14 @@
       "Music",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0031.jpg",
+    "cover": "covers/anime/anime-0027.jpg",
     "source": {
       "provider": "anilist",
       "id": "130003"
     }
   },
   {
-    "id": "anime-0030",
+    "id": "anime-0026",
     "title": "Violet Evergarden",
     "originalTitle": "ヴァイオレット・エヴァーガーデン",
     "originalLanguage": "ja",
@@ -715,14 +715,14 @@
       "Fantasy",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0030.jpg",
+    "cover": "covers/anime/anime-0026.jpg",
     "source": {
       "provider": "anilist",
       "id": "21827"
     }
   },
   {
-    "id": "anime-0029",
+    "id": "anime-0025",
     "title": "One-Punch Man",
     "originalTitle": "ワンパンマン",
     "originalLanguage": "ja",
@@ -739,14 +739,14 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0029.jpg",
+    "cover": "covers/anime/anime-0025.jpg",
     "source": {
       "provider": "anilist",
       "id": "21087"
     }
   },
   {
-    "id": "anime-0028",
+    "id": "anime-0024",
     "title": "Mob Psycho 100",
     "originalTitle": "モブサイコ100",
     "originalLanguage": "ja",
@@ -760,14 +760,14 @@
       "Comedy",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0028.jpg",
+    "cover": "covers/anime/anime-0024.jpg",
     "source": {
       "provider": "anilist",
       "id": "21507"
     }
   },
   {
-    "id": "anime-0027",
+    "id": "anime-0023",
     "title": "Clannad",
     "originalTitle": "ＣＬＡＮＮＡＤ -クラナド-",
     "originalLanguage": "ja",
@@ -784,14 +784,14 @@
       "Drama",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0027.jpg",
+    "cover": "covers/anime/anime-0023.jpg",
     "source": {
       "provider": "anilist",
       "id": "2167"
     }
   },
   {
-    "id": "anime-0026",
+    "id": "anime-0022",
     "title": "Your lie in April",
     "originalTitle": "四月は君の嘘",
     "originalLanguage": "ja",
@@ -808,14 +808,14 @@
       "Music",
       "Romance"
     ],
-    "cover": "covers/anime/anime-0026.jpg",
+    "cover": "covers/anime/anime-0022.jpg",
     "source": {
       "provider": "anilist",
       "id": "20665"
     }
   },
   {
-    "id": "anime-0025",
+    "id": "anime-0021",
     "title": "Mushoku Tensei: Jobless Reincarnation",
     "originalTitle": "無職転生 ～異世界行ったら本気だす～",
     "originalLanguage": "ja",
@@ -832,14 +832,14 @@
       "Drama",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0025.jpg",
+    "cover": "covers/anime/anime-0021.jpg",
     "source": {
       "provider": "anilist",
       "id": "108465"
     }
   },
   {
-    "id": "anime-0024",
+    "id": "anime-0020",
     "title": "Puella Magi Madoka Magica",
     "originalTitle": "魔法少女まどか☆マギカ",
     "originalLanguage": "ja",
@@ -856,14 +856,14 @@
       "Drama",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0024.jpg",
+    "cover": "covers/anime/anime-0020.jpg",
     "source": {
       "provider": "anilist",
       "id": "9756"
     }
   },
   {
-    "id": "anime-0023",
+    "id": "anime-0019",
     "title": "Steins;Gate 0",
     "originalTitle": "シュタインズ・ゲート ゼロ",
     "originalLanguage": "ja",
@@ -877,14 +877,14 @@
       "Psychological",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0023.jpg",
+    "cover": "covers/anime/anime-0019.jpg",
     "source": {
       "provider": "anilist",
       "id": "21127"
     }
   },
   {
-    "id": "anime-0022",
+    "id": "anime-0018",
     "title": "Steins;Gate",
     "originalTitle": "シュタインズ・ゲート",
     "originalLanguage": "ja",
@@ -898,14 +898,14 @@
       "Psychological",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0022.jpg",
+    "cover": "covers/anime/anime-0018.jpg",
     "source": {
       "provider": "anilist",
       "id": "9253"
     }
   },
   {
-    "id": "anime-0021",
+    "id": "anime-0017",
     "title": "Death Note",
     "originalTitle": "DEATH NOTE",
     "originalLanguage": "ja",
@@ -922,14 +922,14 @@
       "Psychological",
       "Supernatural"
     ],
-    "cover": "covers/anime/anime-0021.jpg",
+    "cover": "covers/anime/anime-0017.jpg",
     "source": {
       "provider": "anilist",
       "id": "1535"
     }
   },
   {
-    "id": "anime-0020",
+    "id": "anime-0016",
     "title": "ID: INVADED",
     "originalTitle": "イド：インヴェイデッド",
     "originalLanguage": "ja",
@@ -943,14 +943,14 @@
       "Mystery",
       "Psychological"
     ],
-    "cover": "covers/anime/anime-0020.jpg",
+    "cover": "covers/anime/anime-0016.jpg",
     "source": {
       "provider": "anilist",
       "id": "110350"
     }
   },
   {
-    "id": "anime-0019",
+    "id": "anime-0015",
     "title": "Fate/stay night: Unlimited Blade Works",
     "originalTitle": "Fate/stay night [Unlimited Blade Works]",
     "originalLanguage": "ja",
@@ -964,14 +964,14 @@
       "Fantasy",
       "Supernatural"
     ],
-    "cover": "covers/anime/anime-0019.jpg",
+    "cover": "covers/anime/anime-0015.jpg",
     "source": {
       "provider": "anilist",
       "id": "19603"
     }
   },
   {
-    "id": "anime-0018",
+    "id": "anime-0014",
     "title": "Fate/Zero",
     "originalTitle": "Fate/Zero",
     "originalLanguage": "ja",
@@ -985,14 +985,14 @@
       "Drama",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0018.jpg",
+    "cover": "covers/anime/anime-0014.jpg",
     "source": {
       "provider": "anilist",
       "id": "10087"
     }
   },
   {
-    "id": "anime-0017",
+    "id": "anime-0013",
     "title": "Neon Genesis Evangelion",
     "originalTitle": "新世紀エヴァンゲリオン",
     "originalLanguage": "ja",
@@ -1009,14 +1009,14 @@
       "Drama",
       "Mecha"
     ],
-    "cover": "covers/anime/anime-0017.jpg",
+    "cover": "covers/anime/anime-0013.jpg",
     "source": {
       "provider": "anilist",
       "id": "30"
     }
   },
   {
-    "id": "anime-0016",
+    "id": "anime-0012",
     "title": "Fullmetal Alchemist: Brotherhood",
     "originalTitle": "鋼の錬金術師 FULLMETAL ALCHEMIST",
     "originalLanguage": "ja",
@@ -1033,14 +1033,14 @@
       "Adventure",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0016.jpg",
+    "cover": "covers/anime/anime-0012.jpg",
     "source": {
       "provider": "anilist",
       "id": "5114"
     }
   },
   {
-    "id": "anime-0015",
+    "id": "anime-0011",
     "title": "Parasyte -the maxim-",
     "originalTitle": "寄生獣 セイの格率",
     "originalLanguage": "ja",
@@ -1057,14 +1057,14 @@
       "Drama",
       "Horror"
     ],
-    "cover": "covers/anime/anime-0015.jpg",
+    "cover": "covers/anime/anime-0011.jpg",
     "source": {
       "provider": "anilist",
       "id": "20623"
     }
   },
   {
-    "id": "anime-0014",
+    "id": "anime-0010",
     "title": "Vinland Saga",
     "originalTitle": "ヴィンランド・サガ",
     "originalLanguage": "ja",
@@ -1081,14 +1081,14 @@
       "Adventure",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0014.jpg",
+    "cover": "covers/anime/anime-0010.jpg",
     "source": {
       "provider": "anilist",
       "id": "101348"
     }
   },
   {
-    "id": "anime-0013",
+    "id": "anime-0009",
     "title": "A Certain Scientific Railgun",
     "originalTitle": "とある科学の超電磁砲",
     "originalLanguage": "ja",
@@ -1105,14 +1105,14 @@
       "Fantasy",
       "Sci-Fi"
     ],
-    "cover": "covers/anime/anime-0013.jpg",
+    "cover": "covers/anime/anime-0009.jpg",
     "source": {
       "provider": "anilist",
       "id": "6213"
     }
   },
   {
-    "id": "anime-0012",
+    "id": "anime-0008",
     "title": "Tamako Market",
     "originalTitle": "たまこまーけっと",
     "originalLanguage": "ja",
@@ -1126,14 +1126,14 @@
       "Slice of Life",
       "School"
     ],
-    "cover": "covers/anime/anime-0012.jpg",
+    "cover": "covers/anime/anime-0008.jpg",
     "source": {
       "provider": "anilist",
       "id": "16417"
     }
   },
   {
-    "id": "anime-0011",
+    "id": "anime-0007",
     "title": "K-ON!",
     "originalTitle": "けいおん!",
     "originalLanguage": "ja",
@@ -1147,14 +1147,14 @@
       "Music",
       "Slice of Life"
     ],
-    "cover": "covers/anime/anime-0011.jpg",
+    "cover": "covers/anime/anime-0007.jpg",
     "source": {
       "provider": "anilist",
       "id": "5680"
     }
   },
   {
-    "id": "anime-0010",
+    "id": "anime-0006",
     "title": "The Tatami Galaxy",
     "originalTitle": "四畳半神話大系",
     "originalLanguage": "ja",
@@ -1171,14 +1171,14 @@
       "Mystery",
       "Psychological"
     ],
-    "cover": "covers/anime/anime-0010.jpg",
+    "cover": "covers/anime/anime-0006.jpg",
     "source": {
       "provider": "anilist",
       "id": "7785"
     }
   },
   {
-    "id": "anime-0009",
+    "id": "anime-0005",
     "title": "Ping Pong the Animation",
     "originalTitle": "ピンポン THE ANIMATION",
     "originalLanguage": "ja",
@@ -1195,14 +1195,14 @@
       "Psychological",
       "Sports"
     ],
-    "cover": "covers/anime/anime-0009.jpg",
+    "cover": "covers/anime/anime-0005.jpg",
     "source": {
       "provider": "anilist",
       "id": "20607"
     }
   },
   {
-    "id": "anime-0008",
+    "id": "anime-0004",
     "title": "JoJo's Bizarre Adventure: Golden Wind",
     "originalTitle": "ジョジョの奇妙な冒険 黄金の風",
     "originalLanguage": "ja",
@@ -1219,14 +1219,14 @@
       "Adventure",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0008.jpg",
+    "cover": "covers/anime/anime-0004.jpg",
     "source": {
       "provider": "anilist",
       "id": "102883"
     }
   },
   {
-    "id": "anime-0007",
+    "id": "anime-0003",
     "title": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
     "originalTitle": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
     "originalLanguage": "ja",
@@ -1243,14 +1243,14 @@
       "Adventure",
       "Drama"
     ],
-    "cover": "covers/anime/anime-0007.jpg",
+    "cover": "covers/anime/anime-0003.jpg",
     "source": {
       "provider": "anilist",
       "id": "21450"
     }
   },
   {
-    "id": "anime-0006",
+    "id": "anime-0002",
     "title": "Frieren: Beyond Journey’s End",
     "originalTitle": "葬送のフリーレン",
     "originalLanguage": "ja",
@@ -1268,14 +1268,14 @@
       "Drama",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0006.jpg",
+    "cover": "covers/anime/anime-0002.jpg",
     "source": {
       "provider": "anilist",
       "id": "154587"
     }
   },
   {
-    "id": "anime-0005",
+    "id": "anime-0001",
     "title": "Attack On Titan",
     "originalTitle": "進撃の巨人",
     "originalLanguage": "ja",
@@ -1292,7 +1292,7 @@
       "Drama",
       "Fantasy"
     ],
-    "cover": "covers/anime/anime-0005.jpg",
+    "cover": "covers/anime/anime-0001.jpg",
     "source": {
       "provider": "anilist",
       "id": "16498"
