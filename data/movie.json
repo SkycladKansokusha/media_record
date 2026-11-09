@@ -1,5 +1,91 @@
 [
   {
+    "id": "movie-0045",
+    "title": "CODA",
+    "originalTitle": "CODA",
+    "originalLanguage": "en",
+    "altTitles": [
+      "健听女孩"
+    ],
+    "creator": "Sian Heder",
+    "year": 2021,
+    "date": "2026-11-09",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0045.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "776503"
+    }
+  },
+  {
+    "id": "movie-0044",
+    "title": "Call Me Chihiro",
+    "originalTitle": "ちひろさん",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "千寻小姐"
+    ],
+    "creator": "Rikiya Imaizumi",
+    "year": 2023,
+    "date": "2026-11-09",
+    "rating": 4.5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0044.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "1024621"
+    }
+  },
+  {
+    "id": "movie-0043",
+    "title": "The Father",
+    "originalTitle": "The Father",
+    "originalLanguage": "en",
+    "altTitles": [
+      "困在时间里的父亲"
+    ],
+    "creator": "Florian Zeller",
+    "year": 2020,
+    "date": "2026-11-09",
+    "rating": 5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0043.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "600354"
+    }
+  },
+  {
+    "id": "movie-0042",
+    "title": "My Left Foot: The Story of Christy Brown",
+    "originalTitle": "My Left Foot: The Story of Christy Brown",
+    "originalLanguage": "en",
+    "altTitles": [
+      "我的左脚"
+    ],
+    "creator": "Jim Sheridan",
+    "year": 1989,
+    "date": "2026-11-09",
+    "rating": 5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0042.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "10161"
+    }
+  },
+  {
     "id": "movie-0041",
     "title": "All About Lily Chou-Chou",
     "originalTitle": "リリイ・シュシュのすべて",
