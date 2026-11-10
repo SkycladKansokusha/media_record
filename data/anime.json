@@ -1,5 +1,29 @@
 [
   {
+    "id": "anime-0067",
+    "title": "The Girl Who Leapt Through Time",
+    "originalTitle": "時をかける少女",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Toki wo Kakeru Shoujo"
+    ],
+    "creator": "Mamoru Hosoda",
+    "creatorOriginal": "細田守",
+    "year": 2006,
+    "date": "2026-11-10",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "cover": "covers/anime/anime-0067.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "2236"
+    }
+  },
+  {
     "id": "anime-0066",
     "title": "JUJUTSU KAISEN",
     "originalTitle": "呪術廻戦",
