@@ -1,5 +1,92 @@
 [
   {
+    "id": "movie-0050",
+    "title": "Catch Me If You Can",
+    "originalTitle": "Catch Me If You Can",
+    "originalLanguage": "en",
+    "altTitles": [
+      "猫鼠游戏"
+    ],
+    "creator": "Steven Spielberg",
+    "year": 2002,
+    "date": "2026-11-11",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Crime"
+    ],
+    "cover": "covers/movie/movie-0050.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "640"
+    }
+  },
+  {
+    "id": "movie-0049",
+    "title": "Titanic",
+    "originalTitle": "Titanic",
+    "originalLanguage": "en",
+    "altTitles": [
+      "泰坦尼克号"
+    ],
+    "creator": "James Cameron",
+    "year": 1997,
+    "date": "2026-11-11",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0049.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "597"
+    }
+  },
+  {
+    "id": "movie-0048",
+    "title": "The Truman Show",
+    "originalTitle": "The Truman Show",
+    "originalLanguage": "en",
+    "altTitles": [
+      "楚门的世界"
+    ],
+    "creator": "Peter Weir",
+    "year": 1998,
+    "date": "2026-11-11",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0048.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "37165"
+    }
+  },
+  {
+    "id": "movie-0047",
+    "title": "Something the Lord Made",
+    "originalTitle": "Something the Lord Made",
+    "originalLanguage": "en",
+    "altTitles": [
+      "神迹"
+    ],
+    "creator": "Joseph Sargent",
+    "year": 2004,
+    "date": "2026-11-11",
+    "rating": 5,
+    "tags": [
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0047.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "20544"
+    }
+  },
+  {
     "id": "movie-0046",
     "title": "Love Letter",
     "originalTitle": "ラヴレター",
