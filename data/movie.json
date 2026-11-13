@@ -1,5 +1,28 @@
 [
   {
+    "id": "movie-0052",
+    "title": "The Talented Mr. Ripley",
+    "originalTitle": "The Talented Mr. Ripley",
+    "originalLanguage": "en",
+    "altTitles": [
+      "天才瑞普利"
+    ],
+    "creator": "Anthony Minghella",
+    "year": 1999,
+    "date": "2026-11-14",
+    "rating": 5,
+    "tags": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "cover": "covers/movie/movie-0052.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "1213"
+    }
+  },
+  {
     "id": "movie-0051",
     "title": "Steel Rain",
     "originalTitle": "강철비",
