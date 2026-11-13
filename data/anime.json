@@ -1,5 +1,29 @@
 [
   {
+    "id": "anime-0068",
+    "title": "Perfect Blue",
+    "originalTitle": "PERFECT BLUE",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "PERFECT BLUE"
+    ],
+    "creator": "Satoshi Kon",
+    "creatorOriginal": "今敏",
+    "year": 1998,
+    "date": "2026-11-13",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Horror",
+      "Psychological"
+    ],
+    "cover": "covers/anime/anime-0068.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "437"
+    }
+  },
+  {
     "id": "anime-0067",
     "title": "The Girl Who Leapt Through Time",
     "originalTitle": "時をかける少女",
