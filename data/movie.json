@@ -1,5 +1,52 @@
 [
   {
+    "id": "movie-0054",
+    "title": "Hana & Alice",
+    "originalTitle": "花とアリス",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "花与爱丽丝"
+    ],
+    "creator": "Shunji Iwai",
+    "creatorOriginal": "岩井俊二",
+    "year": 2004,
+    "date": "2026-11-19",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0054.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "27799"
+    }
+  },
+  {
+    "id": "movie-0053",
+    "title": "(500) Days of Summer",
+    "originalTitle": "(500) Days of Summer",
+    "originalLanguage": "en",
+    "altTitles": [
+      "和莎莫的500天"
+    ],
+    "creator": "Marc Webb",
+    "year": 2009,
+    "date": "2026-11-19",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0053.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "19913"
+    }
+  },
+  {
     "id": "movie-0052",
     "title": "The Talented Mr. Ripley",
     "originalTitle": "The Talented Mr. Ripley",
