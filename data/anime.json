@@ -1,5 +1,53 @@
 [
   {
+    "id": "anime-0070",
+    "title": "You and I Are Polar Opposites",
+    "originalTitle": "正反対な君と僕",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "Seihantai na Kimi to Boku"
+    ],
+    "creator": "Takayoshi Nagatomo",
+    "creatorOriginal": "長友孝和",
+    "year": 2026,
+    "date": "2026-11-19",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ],
+    "cover": "covers/anime/anime-0070.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "184951"
+    }
+  },
+  {
+    "id": "anime-0069",
+    "title": "Negative Positive Angler",
+    "originalTitle": "ネガポジアングラー",
+    "originalLanguage": "ja",
+    "altTitles": [
+      "NegaPosi Angler"
+    ],
+    "creator": "Yutaka Uemura",
+    "creatorOriginal": "上村泰",
+    "year": 2024,
+    "date": "2026-11-18",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Slice of Life",
+      "Sports"
+    ],
+    "cover": "covers/anime/anime-0069.jpg",
+    "source": {
+      "provider": "anilist",
+      "id": "179919"
+    }
+  },
+  {
     "id": "anime-0068",
     "title": "Perfect Blue",
     "originalTitle": "PERFECT BLUE",
