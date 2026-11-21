@@ -1,5 +1,233 @@
 [
   {
+    "id": "movie-0064",
+    "title": "Obsession",
+    "originalTitle": "Obsession",
+    "originalLanguage": "en",
+    "altTitles": [
+      "痴迷"
+    ],
+    "creator": "Curry Barker",
+    "year": 2026,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Horror",
+      "Thriller"
+    ],
+    "cover": "covers/movie/movie-0064.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "1339713"
+    }
+  },
+  {
+    "id": "movie-0063",
+    "title": "Backrooms",
+    "originalTitle": "Backrooms",
+    "originalLanguage": "en",
+    "altTitles": [
+      "后室"
+    ],
+    "creator": "Kane Parsons",
+    "year": 2026,
+    "date": "2026-11-21",
+    "rating": 4.5,
+    "tags": [
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "cover": "covers/movie/movie-0063.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "1083381"
+    }
+  },
+  {
+    "id": "movie-0062",
+    "title": "The Lord of the Rings: The Return of the King",
+    "originalTitle": "The Lord of the Rings: The Return of the King",
+    "originalLanguage": "en",
+    "altTitles": [
+      "指环王3：王者无敌"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2003,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0062.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "122"
+    }
+  },
+  {
+    "id": "movie-0061",
+    "title": "The Lord of the Rings: The Two Towers",
+    "originalTitle": "The Lord of the Rings: The Two Towers",
+    "originalLanguage": "en",
+    "altTitles": [
+      "指环王2：双塔奇兵"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2002,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0061.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "121"
+    }
+  },
+  {
+    "id": "movie-0060",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "originalLanguage": "en",
+    "altTitles": [
+      "指环王1：护戒使者"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2001,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0060.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "120"
+    }
+  },
+  {
+    "id": "movie-0059",
+    "title": "The Hobbit: The Battle of the Five Armies",
+    "originalTitle": "The Hobbit: The Battle of the Five Armies",
+    "originalLanguage": "en",
+    "altTitles": [
+      "霍比特人3：五军之战"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2014,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "cover": "covers/movie/movie-0059.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "122917"
+    }
+  },
+  {
+    "id": "movie-0058",
+    "title": "The Hobbit: The Desolation of Smaug",
+    "originalTitle": "The Hobbit: The Desolation of Smaug",
+    "originalLanguage": "en",
+    "altTitles": [
+      "霍比特人2：史矛革之战"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2013,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0058.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "57158"
+    }
+  },
+  {
+    "id": "movie-0057",
+    "title": "The Hobbit: An Unexpected Journey",
+    "originalTitle": "The Hobbit: An Unexpected Journey",
+    "originalLanguage": "en",
+    "altTitles": [
+      "霍比特人1：意外之旅"
+    ],
+    "creator": "Peter Jackson",
+    "year": 2012,
+    "date": "2026-11-21",
+    "rating": 5,
+    "tags": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0057.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "49051"
+    }
+  },
+  {
+    "id": "movie-0056",
+    "title": "Lucy",
+    "originalTitle": "Lucy",
+    "originalLanguage": "en",
+    "altTitles": [
+      "超体"
+    ],
+    "creator": "Luc Besson",
+    "year": 2014,
+    "date": "2026-11-21",
+    "rating": 4,
+    "tags": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "cover": "covers/movie/movie-0056.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "240832"
+    }
+  },
+  {
+    "id": "movie-0055",
+    "title": "Arrival",
+    "originalTitle": "Arrival",
+    "originalLanguage": "en",
+    "altTitles": [
+      "降临"
+    ],
+    "creator": "Denis Villeneuve",
+    "year": 2016,
+    "date": "2026-11-21",
+    "rating": 4,
+    "tags": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "cover": "covers/movie/movie-0056.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "329865"
+    }
+  },
+  {
     "id": "movie-0054",
     "title": "Hana & Alice",
     "originalTitle": "花とアリス",
