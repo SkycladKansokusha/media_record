@@ -1,5 +1,51 @@
 [
   {
+    "id": "movie-0067",
+    "title": "Se7en",
+    "originalTitle": "Se7en",
+    "originalLanguage": "en",
+    "altTitles": [
+      "七宗罪"
+    ],
+    "creator": "David Fincher",
+    "year": 1995,
+    "date": "2026-11-23",
+    "rating": 5,
+    "tags": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "cover": "covers/movie/movie-0067.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "807"
+    }
+  },
+  {
+    "id": "movie-0066",
+    "title": "Zodiac",
+    "originalTitle": "Zodiac",
+    "originalLanguage": "en",
+    "altTitles": [
+      "十二宫"
+    ],
+    "creator": "David Fincher",
+    "year": 2007,
+    "date": "2026-11-23",
+    "rating": 5,
+    "tags": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "cover": "covers/movie/movie-0066.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "1949"
+    }
+  },
+  {
     "id": "movie-0065",
     "title": "Incantation",
     "originalTitle": "咒",
