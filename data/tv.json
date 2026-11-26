@@ -1,6 +1,6 @@
 [
   {
-    "id": "tv-0019",
+    "id": "tv-0017",
     "title": "1 Litre of Tears",
     "originalTitle": "1リットルの涙",
     "originalLanguage": "ja",
@@ -15,14 +15,14 @@
       "Drama",
       "Family"
     ],
-    "cover": "covers/tv/tv-0019.jpg",
+    "cover": "covers/tv/tv-0017.jpg",
     "source": {
       "provider": "tmdb",
       "id": "6484"
     }
   },
   {
-    "id": "tv-0018",
+    "id": "tv-0016",
     "title": "Kamen Rider Amazons",
     "originalTitle": "仮面ライダーアマゾンズ",
     "originalLanguage": "ja",
@@ -39,38 +39,14 @@
       "Adventure",
       "Sci-Fi"
     ],
-    "cover": "covers/tv/tv-0018.jpg",
+    "cover": "covers/tv/tv-0016.jpg",
     "source": {
       "provider": "tmdb",
       "id": "100659"
     }
   },
   {
-    "id": "tv-0017",
-    "title": "The Flash",
-    "originalTitle": "The Flash",
-    "originalLanguage": "en",
-    "altTitles": [
-      "闪电侠"
-    ],
-    "creator": "Geoff Johns, Greg Berlanti",
-    "year": 2014,
-    "date": "2026-11-02",
-    "rating": 3,
-    "review": "Too much talk.",
-    "tags": [
-      "Drama",
-      "Sci-Fi",
-      "Fantasy"
-    ],
-    "cover": "covers/tv/tv-0017.jpg",
-    "source": {
-      "provider": "tmdb",
-      "id": "60735"
-    }
-  },
-  {
-    "id": "tv-0016",
+    "id": "tv-0015",
     "title": "Sherlock",
     "originalTitle": "Sherlock",
     "originalLanguage": "en",
@@ -86,14 +62,14 @@
       "Drama",
       "Mystery"
     ],
-    "cover": "covers/tv/tv-0016.jpg",
+    "cover": "covers/tv/tv-0015.jpg",
     "source": {
       "provider": "tmdb",
       "id": "19885"
     }
   },
   {
-    "id": "tv-0015",
+    "id": "tv-0014",
     "title": "Daredevil",
     "originalTitle": "Marvel's Daredevil",
     "originalLanguage": "en",
@@ -109,14 +85,14 @@
       "Drama",
       "Action"
     ],
-    "cover": "covers/tv/tv-0015.jpg",
+    "cover": "covers/tv/tv-0014.jpg",
     "source": {
       "provider": "tmdb",
       "id": "61889"
     }
   },
   {
-    "id": "tv-0014",
+    "id": "tv-0013",
     "title": "Marvel's Agents of S.H.I.E.L.D.",
     "originalTitle": "Marvel's Agents of S.H.I.E.L.D.",
     "originalLanguage": "en",
@@ -132,14 +108,14 @@
       "Sci-Fi",
       "Fantasy"
     ],
-    "cover": "covers/tv/tv-0014.jpg",
+    "cover": "covers/tv/tv-0013.jpg",
     "source": {
       "provider": "tmdb",
       "id": "1403"
     }
   },
   {
-    "id": "tv-0013",
+    "id": "tv-0012",
     "title": "Rebooting",
     "originalTitle": "ブラッシュアップライフ",
     "originalLanguage": "ja",
@@ -155,32 +131,10 @@
       "Comedy",
       "Sci-Fi"
     ],
-    "cover": "covers/tv/tv-0013.jpg",
-    "source": {
-      "provider": "tmdb",
-      "id": "215197"
-    }
-  },
-  {
-    "id": "tv-0012",
-    "title": "Can This Love Be Translated?",
-    "originalTitle": "이 사랑 통역 되나요?",
-    "originalLanguage": "ko",
-    "altTitles": [
-      "爱情怎么翻译？"
-    ],
-    "creator": "Hong Jeong-eun, Hong Mi-ran",
-    "year": 2026,
-    "date": "2026-11-02",
-    "rating": 4,
-    "tags": [
-      "Drama",
-      "Comedy"
-    ],
     "cover": "covers/tv/tv-0012.jpg",
     "source": {
       "provider": "tmdb",
-      "id": "229891"
+      "id": "215197"
     }
   },
   {
