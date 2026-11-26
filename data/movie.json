@@ -1,5 +1,27 @@
 [
   {
+    "id": "movie-0068",
+    "title": "Amélie",
+    "originalTitle": "Le Fabuleux Destin d'Amélie Poulain",
+    "originalLanguage": "fr",
+    "altTitles": [
+      "天使爱美丽"
+    ],
+    "creator": "Jean-Pierre Jeunet",
+    "year": 2001,
+    "date": "2026-11-26",
+    "rating": 5,
+    "tags": [
+      "Comedy",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0068.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "194"
+    }
+  },
+  {
     "id": "movie-0067",
     "title": "Se7en",
     "originalTitle": "Se7en",
@@ -417,7 +439,7 @@
     "creator": "James Cameron",
     "year": 1997,
     "date": "2026-11-11",
-    "rating": 4.5,
+    "rating": 4.0,
     "tags": [
       "Drama",
       "Romance"
@@ -528,7 +550,7 @@
     "creator": "Rikiya Imaizumi",
     "year": 2023,
     "date": "2026-11-09",
-    "rating": 4.5,
+    "rating": 4.0,
     "tags": [
       "Drama"
     ],
@@ -1001,7 +1023,7 @@
     "creator": "Rob Reiner",
     "year": 1989,
     "date": "2026-11-03",
-    "rating": 4,
+    "rating": 3.5,
     "tags": [
       "Comedy",
       "Romance",
@@ -1105,7 +1127,7 @@
     "creatorOriginal": "郭帆",
     "year": 2019,
     "date": "2026-11-02",
-    "rating": 4,
+    "rating": 3,
     "tags": [
       "Sci-Fi",
       "Action",
