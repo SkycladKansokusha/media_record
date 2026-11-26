@@ -26,6 +26,7 @@ my-media-log/
 ├── scripts/
 │   ├── add.py              交互式录入 + 封面抓取
 │   ├── validate.py         数据校验
+│   ├── delete.py           删除条目 + 封面，后续序号前移
 │   └── common.py           两个脚本共用的工具函数
 ├── .github/workflows/pages.yml   可选的 GitHub Actions 部署
 ├── requirements.txt
@@ -162,6 +163,18 @@ export TMDB_API_KEY=你的key
 ### 手动换封面
 
 把图片放进 `covers/<分类>/`（例如 `covers/anime/anime-0014.jpg`），再把条目的 `cover` 改成这个路径。`add.py` 下载的封面会自动保存到对应分类的子文件夹。放错文件夹时 `validate.py` 会给出警告。
+
+### 删除条目
+
+```bash
+python3 scripts/delete.py              # 选分类 → 输入序号或名字 → 输入 confirm 删除
+python3 scripts/delete.py -c movie     # 跳过分类菜单
+python3 scripts/delete.py --dry-run    # 同样的流程，只预览不删除
+```
+
+序号可以输入 `56` 或 `movie-0056`；名字支持模糊搜索（英文名、原名、其他译名都能搜，忽略大小写、重音和标点，如 `amelie`、`hobit`、`活着`），从结果列表里选一个。
+列出将要做的改动后，必须输入 `confirm` 才会执行，其他任何输入都取消。
+删除该条目和它的封面，之后同分类的条目序号依次前移一位（`movie-0057` → `movie-0056` …），封面文件一起改名；之前的序号不变。执行完再跑一次 `validate.py`。
 
 ### 标题显示模式 `data/settings.json`
 
