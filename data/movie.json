@@ -1,5 +1,74 @@
 [
   {
+    "id": "movie-0070",
+    "title": "The Dark Knight Rises",
+    "originalTitle": "The Dark Knight Rises",
+    "originalLanguage": "en",
+    "altTitles": [
+      "蝙蝠侠：黑暗骑士崛起"
+    ],
+    "creator": "Christopher Nolan",
+    "year": 2012,
+    "date": "2026-11-27",
+    "rating": 5,
+    "tags": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "cover": "covers/movie/movie-0070.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "49026"
+    }
+  },
+  {
+    "id": "movie-0069",
+    "title": "Batman Begins",
+    "originalTitle": "Batman Begins",
+    "originalLanguage": "en",
+    "altTitles": [
+      "蝙蝠侠：侠影之谜"
+    ],
+    "creator": "Christopher Nolan",
+    "year": 2005,
+    "date": "2026-11-27",
+    "rating": 5,
+    "tags": [
+      "Drama",
+      "Crime",
+      "Action"
+    ],
+    "cover": "covers/movie/movie-0069.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "272"
+    }
+  },
+  {
+    "id": "movie-0068",
+    "title": "The Batman",
+    "originalTitle": "The Batman",
+    "originalLanguage": "en",
+    "altTitles": [
+      "新蝙蝠侠"
+    ],
+    "creator": "Matt Reeves",
+    "year": 2022,
+    "date": "2026-11-27",
+    "rating": 5,
+    "tags": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "cover": "covers/movie/movie-0068.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "414906"
+    }
+  },
+  {
     "id": "movie-0067",
     "title": "Fight Club",
     "originalTitle": "Fight Club",
