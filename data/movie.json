@@ -1,5 +1,28 @@
 [
   {
+    "id": "movie-0070",
+    "title": "Happy Together",
+    "originalTitle": "春光乍洩",
+    "originalLanguage": "cn",
+    "altTitles": [
+      "春光乍泄"
+    ],
+    "creator": "Wong Kar-wai",
+    "creatorOriginal": "王家卫",
+    "year": 1997,
+    "date": "2026-11-28",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "Romance"
+    ],
+    "cover": "covers/movie/movie-0070.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "18329"
+    }
+  },
+  {
     "id": "movie-0069",
     "title": "The Dark Knight Rises",
     "originalTitle": "The Dark Knight Rises",
