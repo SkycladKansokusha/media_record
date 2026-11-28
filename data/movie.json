@@ -1,5 +1,27 @@
 [
   {
+    "id": "movie-0071",
+    "title": "The King's Speech",
+    "originalTitle": "The King's Speech",
+    "originalLanguage": "en",
+    "altTitles": [
+      "国王的演讲"
+    ],
+    "creator": "Tom Hooper",
+    "year": 2010,
+    "date": "2026-11-28",
+    "rating": 4.5,
+    "tags": [
+      "Drama",
+      "History"
+    ],
+    "cover": "covers/movie/movie-0071.jpg",
+    "source": {
+      "provider": "tmdb",
+      "id": "45269"
+    }
+  },
+  {
     "id": "movie-0070",
     "title": "Happy Together",
     "originalTitle": "春光乍洩",
